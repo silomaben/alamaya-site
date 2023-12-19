@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block hero-header-class %}hero-header-aboutus{% endblock %}
+{% block page-header %}About Us{% endblock %}
+{% block page-name %}Alamaya Adventure Limited{% endblock %}
+
+{% load static %}
+<!-- {% static 'base/' %} -->
+{% block content %}
+
+<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="{% static 'base/img/about.jpg' %}" alt="" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                <h1 class="mb-4">Welcome to <span class="text-primary">Alamaya Adventures</span></h1>
+                <p class="mb-4">Welcome to the captivating realm of Alamaya Adventures, your gateway to unrivaled explorations and enthralling wildlife encounters across Kenya's landscapes. As you step into our safari website, you're embarking on a journey that unveils the heart and soul of Kenya's diverse ecosystems and captivating wildlife havens.</p>
+                <p class="mb-4">Nestled in the heart of East Africa, Kenya beckons with its world-renowned national parks, including the iconic Maasai Mara, Tsavo, Amboseli, and beyond. Immerse yourself in the enchanting world of Africa's "Big Five" – the regal lions, majestic elephants, elusive leopards, formidable buffalos, and endangered rhinos – as they roam freely across vast savannahs and lush wilderness. </p>
+                <p> We specialize in offering the folliwing services:</p>
+                <div class="row gy-2 gx-4 mb-4">
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Unforgettable Safari Vacations</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Elegant Accomodations</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Exquisite Vehicles</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Premium City Tours</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Dedicated Service</p>
+                    </div>
+                </div>
+                <!-- <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <h1 class="mb-4 text-center">Guided by Purpose: <span class="text-primary "> Our Core Principles</span></h1>
+        <p>
+            <strong>Mission:</strong><br> Embarking on a journey with purpose, Alamaya Adventures crafts extraordinary travel experiences that transcend the ordinary. We are committed to curating socially responsible adventures that immerse travelers in the essence of Kenya's beauty, culture, and wildlife, leaving a positive impact on both our guests and the communities we touch. <br/><br/><strong>Vision:</strong><br> At Alamaya Adventures, we aspire to stand as the beacon of excellence in the realm of travel and tourism. Our vision is to lead by example, providing innovative, quality-driven, and competitively superior services while nurturing a strong sense of social responsibility within our industry.
+        </p>
+        
+        <h4 class="mb-4 text-center">Our <span class="text-primary ">values</span></h4>
+        
+        <p>
+            <strong>Excellence:</strong><br>We constantly strive to raise the bar, dedicated to continuous improvement and inspiration. Our commitment to excellence shapes every aspect of our service.<br/><br/><strong>Responsibility:</strong><br>Nurturing the needs of individuals, stakeholders, and the environment is at the core of our work. We maximize our resources to make a positive impact that resonates far beyond our adventures.
+            
+            <br/><br/><strong>Loyalty:</strong><br>Trust is the cornerstone of our relationships. Our unwavering reliability and trustworthiness form the foundation upon which we build connections that endure.
+            
+            
+            <br/><br/><strong >Respect:</strong><br> Embracing the rich tapestry of human diversity, we foster harmony and warmth in every interaction. Respect for one another is integral to our ethos.
+            
+            <br/><br/><strong>Readiness:</strong><br>Imbued with passion and diligence, we approach our tasks promptly, proactively, and meticulously. Our dedication ensures that every adventure we craft is infused with passion and precision.
+            
+            
+        </p>
+
+    </div>
+</div>
+
+{% endblock %}

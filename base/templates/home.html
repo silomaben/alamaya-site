@@ -1,0 +1,619 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Alamaya  Adventure Limited</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!-- {% static 'base/' %} -->
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ4Y5EE6YP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-VZ4Y5EE6YP');
+    </script>
+    <!-- Favicon --> 
+    <link href="{% static 'base/img/alamaya-adventures-limited.png' %}" rel="icon" style="width: 40px; height: 32px;">
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="{% static 'base/lib/animate/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'base/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'base/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css' %}" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{% static 'base/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{% static 'base/css/style.css' %}" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Nakuru, Kenya</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+254790 803 673</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@alamayaadventures.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank" href="https://www.facebook.com/profile.php?id=61550074975727"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank" href="https://instagram.com/alamaya_adventures?igshid=NzZlODBkYWE4Ng=="><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" target="_blank" href="https://youtube.com/@AlamayaAdventures?si=607c1C-IWislm1f2"><i class="fab fa-youtube fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" target="_blank" href="https://www.tiktok.com/@alamayaadventures?_t=8fZw0Viikmk&_r=1"><svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <section id="hero" class="d-flex flex-column justify-content-end align-items-center position-relative">
+        
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <div class="logo-container">
+                <img src="{% static 'base/img/alamaya-adventures-limited.png' %}" alt="Logo" style="width: 187px; height: 150px;">
+                <!-- <h1 class="text-primary m-0" style="font-size: 24px; display: inline-block; vertical-align: middle;">Alamaya Adventures</h1> -->
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="{% url 'home' %}" class="nav-item nav-link active">Home</a>
+                    <a href="{% url 'view_destinations' %}" class="nav-item nav-link ">Destinations</a>
+                    <a href="{% url 'packages' %}" class="nav-item nav-link ">Packages</a>
+                    <!-- <a href="{% url 'booking' %}" class="nav-item nav-link">Booking</a> -->
+                    <a href="{% url 'about-Alamaya-Adventure-Limited' %}" class="nav-item nav-link">About Us</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">View More</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="{% url 'blog' %}" class="dropdown-item">Our Travel Blogs</a>
+                            <a href="{% url 'gallery' %}" class="dropdown-item">Moments</a>
+                            
+                        </div>
+                    </div>
+                    <a href="{% url 'contact-us' %}" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="{% url 'booking' %}" class="btn btn-primary rounded-0 py-2 px-4">BOOK NOW</a>
+            </div>
+        </nav>
+        
+
+        <div class="container-fluid  py-5 mb-5 hero-header mt-5">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5" >
+                    
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center" >
+                        <h1 class="display-3 text-white mb-3 animated slideInDown" style="margin-top: 150px;"></h1>
+                        <H1 class="text-primary">Tembea Africa</H1>
+                    <p class="">Embark on a wild journey with Alamaya Adventures and discover the untamed beauty of Africa's safari landscapes.</p>
+                        <!-- <p class="fs-4 text-white mb-4 animated slideInDown">
+                            Embark on a wild journey with Alamaya Adventures and discover the untamed beauty of Africa's safari landscapes.</p>
+                        <div class="position-relative w-75 mx-auto animated slideInDown">
+                            <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Maasai Mara">
+                            <button type="button" class="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--</div>-->
+    <div class="container">
+        {% for x in video %}
+        <video autoplay muted loop id="hero-video" style="background-color: black; filter: brightness(70%);">
+            <source src="https://res.cloudinary.com/dedrezeyj/video/upload/v1692823489/alamaya-landing-video_oulwnj.mp4" type="video/mp4" />
+        </video>
+        {% endfor %}
+    </div>
+    
+    <!-- Navbar & Hero End -->
+        <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+            <defs>
+                <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="wave1">
+                <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)" />
+            </g>
+            <g class="wave2">
+                <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)" />
+            </g>
+            <g class="wave3">
+                <use xlink:href="#wave-path" x="50" y="9" fill="#fff" />
+            </g>
+        </svg>
+    </section>
+    
+    
+    <!-- Navbar & Hero End -->
+
+     <!-- About Start -->
+     <div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <!-- <div class="col-lg-auto wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                </div>
+            </div> -->
+            <div class="col-lg-12 wow fadeInUp text-center" data-wow-delay="0.3s">
+                <h6 class="section-title bg-white text-start text-primary pe-3">Experience</h6>
+                <h1 class="mb-4">Alamaya<span class="text-primary"> Adventures</span></h1>
+                <div style="max-width: 600px; margin: 0 auto;">
+                <p class="mb-4  text-justify">Alamaya adventures Limited is a premier safari company specializing in extraordinary journeys to Kenya's prestigious tourist attractions, including Maasai Mara, Tsavo, and Diani. Our expertly curated tours immerse you in the captivating wildlife and breathtaking landscapes of these iconic destinations. With experienced guides and a deep commitment to conservation and community engagement, Alamaya adventures Limited ensures a truly unforgettable and responsible exploration of Kenya's natural wonders.</p>
+                </div>
+                <div class="row gy-2 gx-4 mb-4">
+                    <!-- <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
+                    </div> -->
+                </div>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="{% url 'about-Alamaya-Adventure-Limited' %}">About Us</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- About End -->
+
+
+     
+
+    <!-- Package Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Safari Packages</h6>
+                <h1 class="mb-5">Destinations</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{% static 'base/img/destinations/maasai-mara.jpg' %}" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <!-- <small class="flex-fill text-center border-end py-2">Ksh 15,900.00</small> -->
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">Maasai Mara</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Experience the raw beauty of Maasai Mara, where vast savannahs and incredible wildlife encounters await your journey.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="{% url 'destination_details' tag='Maasai-Mara' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="{% url 'booking' %}?destination=Maasai Mara" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{% static 'base/img/destinations/ol-pejeta.jpg' %}" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <!-- <small class="flex-fill text-center border-end py-2">Ksh 14,900.00</small> -->
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">Ol Pejeta</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>
+                                Where untamed wilderness, diverse wildlife, and conservation efforts intertwine in captivating harmony.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="{% url 'destination_details' tag='Olpejeta' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="{% url 'booking' %}?destination=Olpejeta" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="{% static 'base/img/destinations/lake-nakuru.jpg' %}" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                            <!-- <small class="flex-fill text-center border-end py-2">Ksh 18,900.00</small> -->
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                        </div>
+                        <div class="text-center p-4">
+                            <h3 class="mb-0">Lake Nakuru</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <p>Immerse yourself in the natural splendor of Lake Nakuru, where flamingos, diverse wildlife, and stunning landscapes create a mesmerizing oasis.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                                <a href="{% url 'destination_details' tag='Lake-Nakuru' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="{% url 'booking' %}?destination=Lake Nakuru" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="text-center"><a class="btn btn-primary py-3 px-5 mt-2" href="{% url 'view_destinations' %}">View All</a></div>
+        </div>
+    </div>
+    <!-- Package End -->
+
+
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Services</h6>
+                <h1 class="mb-5">Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5>Nature Safari tours</h5>
+                            <p>We specialize in giving you the best Safari experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
+                            <h5>Hotel Reservation</h5>
+                            <p>Make a hotel reservation with us today.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-user text-primary mb-4"></i>
+                            <h5>Travel Guides</h5>
+                            <p>We will ensure you get the best from your vacation trip.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-cog text-primary mb-4"></i>
+                            <h5>Event Management</h5>
+                            <p>We can help your manage and make your event successful.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-cog text-primary mb-4"></i>
+                            <h5>Customized Safari</h5>
+                            <p>We'll ensure you enjoy your holiday according to your own destination(s) and safari preference.</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Destination Start -->
+    <div class="container-xxl py-5 destination">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Gallery</h6>
+                <h1 class="mb-5">Alamaya Adventure Moments</h1>
+                <p class="lead">
+                    Ready for your next adventure? <br/> Explore our destinations section and discover the most amazing places to visit around Africa.
+                  </p>
+                  <br/>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="{% url 'album' tag='Maasai Mara' %}">
+                                
+                                <img class="img-fluid" src="{% static 'base/img/destination-1.jpg' %}" alt="">
+                                <!-- <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">30% OFF</div> -->
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Maasai Mara</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="{% url 'album' tag='Tsavo' %}">
+                                <img class="img-fluid" src="{% static 'base/img/destination-2.jpg' %}" alt="">
+                                <!-- <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">25% OFF</div> -->
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Tsavo</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="{% url 'album' tag='Olpejeta' %}">
+                                <img class="img-fluid" src="{% static 'base/img/destination-3.jpg' %}" alt="">
+                                <!-- <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">35% OFF</div> -->
+                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Ol Pejeta</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="{% url 'album' tag='Lake Nakuru' %}">
+                        <img class="img-fluid position-absolute w-100 h-100" src="{% static 'base/img/destination-4.jpg' %}" alt="" style="object-fit: cover;">
+                        <!-- <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">20% OFF</div> -->
+                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Lake Nakuru</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Destination Start -->
+
+
+    <!-- Process Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Process</h6>
+                <h1 class="mb-5">3 Easy Steps</h1>
+            </div>
+            <div class="row gy-5 gx-4 justify-content-center">
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <i class="fa fa-globe fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Choose A Destination</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Decide to visit a destination and we will help your make beatiful memories.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <i class="fa fa-dollar-sign fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Book Trip</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">We will process your booking and get back to your immediately.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <i class="fa fa-plane fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Enjoy your Vacay</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Visit your destination and enjoy the beatiful attractions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Process Start -->
+
+
+     <!-- Testimonial Start -->
+     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Clients Say!!!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item bg-white text-center border p-4">
+                    <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="{% static 'base/img/testimonial-1.jpg' %}" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Wambui Macharia</h5>
+                    <!--<p>Ohio, Maasai Mara</p>-->
+                    <p class="mb-0">Thank you alamaya adventures we saw lots of animals. Rhinos,  flamingos and not forgetting the 1 lions including the cubs and the 2 sub males. It was gorgeous 😍</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+<div class="bde-globalblock-125-174 bde-globalblock">
+  <section class="bde-section-195-100 bde-section">
+    <div class="section-container">
+      <div class="bde-columns-195-101 bde-columns">
+        <div class="bde-column-195-102 bde-column" style="text-align: center;">
+          <h6 class="section-title bg-white text-center text-primary px-3">Accredited by the best</h6>
+          <h2 class="bde-heading-195-104 bde-heading">
+            Memberships &amp; Affiliations
+          </h2>
+          <div class="bde-text-195-105 bde-text">
+            We are proud members and affiliated with some of the most respected organizations in the tour agency space.
+          </div>
+        </div>
+        <div class="bde-column-195-106 bde-column">
+          <div class="container">
+            <!-- <img src="https://bigfoot-adventures.com/wp-content/uploads/2023/03/safari-bookings.png" alt="Safari Bookings">
+            <img src="https://bigfoot-adventures.com/wp-content/uploads/2023/03/tripadvisor.png" alt="Tripadvisor">
+            <img src="https://bigfoot-adventures.com/wp-content/uploads/2023/03/tusk.png" alt="TOSK">
+            <img src="https://bigfoot-adventures.com/wp-content/uploads/2023/03/kato.png" alt="KATO"> -->
+            <img src="https://bigfoot-adventures.com/wp-content/uploads/2023/03/tra.png" alt="TRA">
+            <!-- <img src="https://bigfoot-adventures.com/wp-content/uploads/2023/03/magical_kenya.png" alt="Magical Kenya">z -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Company</h4>
+                    <a class="btn btn-link" href="{% url 'home' %}">Home</a>
+                    <a class="btn btn-link" href="{% url 'view_destinations' %}">Destinations</a>
+                    <a class="btn btn-link" href="{% url 'packages' %}">Packages</a>
+                    <a class="btn btn-link" href="{% url 'about-Alamaya-Adventure-Limited' %}">About</a>
+                    <a class="btn btn-link" href="{% url 'gallery' %}">Gallery</a>
+                    <a class="btn btn-link" href="{% url 'contact-us' %}">Contact Us</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Lanet-Nakuru, Kenya</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+254790 803 673</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@alamayaadventureslimited.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" target="_blank" href="https://instagram.com/alamaya_adventures?igshid=NzZlODBkYWE4Ng=="><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.facebook.com/profile.php?id=61550074975727"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank" href="https://youtube.com/@AlamayaAdventures?si=607c1C-IWislm1f2"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.tiktok.com/@alamayaadventures?_t=8fZw0Viikmk&_r=1"><svg class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="{% static 'base/img/package-1.jpg' %}" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="{% static 'base/img/package-2.jpg' %}" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="{% static 'base/img/package-3.jpg' %}" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="{% static 'base/img/package-2.jpg' %}" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="{% static 'base/img/package-3.jpg' %}" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="{% static 'base/img/package-1.jpg' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" style="white-space: nowrap;">
+                        &copy; <a class="border-bottom" href="#">Alamaya Adventure Limited</a>, All Right Reserved.
+
+                      
+                        <!-- Designed By <a class="border-bottom" href="https://www.instagram.com/ignit3_graphics/" target="blank">Ignit3 Graphics</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'base/lib/wow/wow.min.js' %}"></script>
+    <script src="{% static 'base/lib/easing/easing.min.js' %}"></script>
+    <script src="{% static 'base/lib/waypoints/waypoints.min.js' %}"></script>
+    <script src="{% static 'base/lib/owlcarousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'base/lib/tempusdominus/js/moment.min.js' %}"></script>
+    <script src="{% static 'base/lib/tempusdominus/js/moment-timezone.min.js' %}"></script>
+    <script src="{% static 'base/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js' %}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{% static 'base/js/main.js' %}"></script>
+
+    
+    
+</body>
+
+</html>

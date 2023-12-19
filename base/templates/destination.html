@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+{% block hero-header-class %}hero-header-destination{% endblock %}
+{% block page-header %}{{destinationTitle}}{% endblock %}
+{% block destination-name %}{{destination}}{% endblock %}
+{% block activate-destination %}active{% endblock %}
+
+{% load static %}
+<!-- {% static 'base/' %} -->
+
+{% block content %}
+            <!-- About Start -->
+            <div class="container-xxl py-5">
+                <div class="container">
+                    {% for dest in Destination %}
+                    <div class="row g-5">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                            <div class="position-relative h-100">
+                                <img class="img-fluid position-absolute w-100 h-100" src="{{ dest.image.url }}" alt="{{ dest.title }}" style="object-fit: cover;">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <h6 class="section-title bg-white text-start text-primary pe-3">{{ dest.title }}</h6>
+                            <h1 class="mb-4">Lets go to<span class="text-primary"> {{ dest.thedestination }}</span></h1>
+                            <p class="mb-4">{{ dest.paragraph1 }}</p>
+                            <p class="mb-4">{{ dest.paragraph2 }} </p>
+                            
+                            <div class="row gy-2 gx-4 mb-4">
+                                <!-- <div class="col-sm-6">
+                                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Safari vacations</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Premium City Tours</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
+                                </div> -->
+
+                                
+                            </div>
+                            
+                            
+                        </div>
+                        <br/><br/><br/>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-lg-12 wow fadeInUp text-center" data-wow-delay="0.3s">
+                            <!-- <h6 class="section-title bg-white text-start text-primary pe-3">Experience</h6> -->
+                            <!-- <h1 class="mb-4">Alamaya<span class="text-primary"> Adventures</span></h1> -->
+                            <h5 class="mb-4">More<span class="text-primary"> on {{ dest.thedestination }}</span></h5>
+                            <div style="max-width: 1000px; margin: 0 auto;">
+                            <p  class="mb-4 text-justify "> {{ dest.paragraph3 }}</p>
+                            <p  class="mb-4 text-justify ">{{ dest.paragraph4 }}</p>
+                            <p  class="mb-4 text-justify ">{{ dest.paragraph5 }}</p>
+                            <p  class="mb-4 text-justify ">{{ dest.paragraph6 }}</p>
+                            
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    
+            <!-- About End -->
+
+
+            <!--<div class="container-xxl py-5">-->
+            <!--    <div class="container">-->
+            <!--        <div class="row g-5">-->
+            <!--            <div class="col-lg-12 wow fadeInUp text-center" data-wow-delay="0.3s">-->
+                            <!-- <h6 class="section-title bg-white text-start text-primary pe-3">Experience</h6> -->
+                            <!-- <h1 class="mb-4">Our<span class="text-primary"> Stop Points/Views</span></h1> -->
+            <!--                <div style="max-width: 600px; margin: 0 auto;">-->
+                            
+            <!--                <p  class="mb-4  text-justify ">{{ dest.paragraph5 }}</p>-->
+            <!--                <p  class="mb-4  text-justify ">{{ dest.paragraph6 }}</p>-->
+            <!--                </div>-->
+            <!--                <a class="btn btn-primary py-3 px-5 mt-2" href="{% url 'booking' %}?destination={{dest.thedestination}}">Book</a>-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+
+                    {% endfor %}
+            
+
+
+{% endblock %}

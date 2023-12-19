@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+
+{% block hero-header-class %}hero-header-gallery{% endblock %}
+{% block page-header %}Moments{% endblock %}
+{% block page-name %}Gallery{% endblock %}
+{% block view-more %}active{% endblock %}
+
+{% load static %}
+<!-- {% static 'base/' %} -->
+
+{% block content %}
+
+
+<!-- Team Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">GALLERY</h6>
+            <h1 class="mb-5">Alamaya Adventure Moments</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item">
+                    <a href="{% url 'album' tag='lions' %}">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/team-1.jpg' %}" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Lions</h5>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item">
+                    <a href="{% url 'album' tag='elephants' %}">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/team-2.jpg' %}" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Elephants</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item">
+                    <a href="{% url 'album' tag='rhinos' %}">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/team-3.jpg' %}" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Rhinos</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item">
+                    <a href="{% url 'album' tag='birds' %}">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/album/kenya_costal_birds.png' %}" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Birds</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item">
+                    <a href="{% url 'album' tag='buffalo' %}">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/buffalo.jpg' %}" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Buffalo</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item">
+                    <a href="{% url 'album' tag='wildebeest' %}">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/wildebeest.jpg' %}" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">wildebeest</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item">
+                    <a href="{% url 'album' tag='leopards' %}">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/leopards.jpg' %}" alt="">
+                    </div>
+                    <div class="text-center p-4">
+                        <h5 class="mb-0">Leopards</h5>
+                    </div>
+                </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+{% endblock %}

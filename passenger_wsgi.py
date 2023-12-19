@@ -1,0 +1,1 @@
+from safari.wsgi import application

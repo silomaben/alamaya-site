@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block hero-header-class %}hero-header-destination{% endblock %}
+{% block page-header %}{{tag}}{% endblock %}
+{% block album-name %}{{tag}}{% endblock %}
+{% block view-more %}active{% endblock %}
+
+{% load static %}
+<!-- {% static 'base/' %} -->
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        {% for image in images %}
+        <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+            <a href="{{ image.image.url }}" data-lightbox="portfolioGallery" data-title="">
+                <img src="{{ image.image.url }}" class="lightbox-img" alt="{{ image.title }}">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,357 @@
+{% extends 'base.html' %}
+
+{% block hero-header-class %}hero-header-destination{% endblock %}
+{% block page-header %}Destination{% endblock %}
+{% block destination-name %}Destination{% endblock %}
+
+
+{% load static %}
+<!-- {% static 'base/' %} -->
+{% block content %}
+
+   <!-- Package Start -->
+   <div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Destinations</h6>
+            <h1 class="mb-5">Pick Your Destination</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/maasai-mara.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 15,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Maasai Mara</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>Experience the raw beauty of Maasai Mara, where vast savannahs and incredible wildlife encounters await your journey.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Maasai-Mara' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Maasai Mara" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/ol-pejeta.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 15,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Olpejeta</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>Discover the captivating Ol Pejeta Conservancy, a haven of wildlife conservation and breathtaking landscapes where endangered species roam freely, offering an unforgettable safari experience.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Olpejeta' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Olpejeta" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/lake-nakuru.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 18,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Lake Nakuru</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>Immerse yourself in the natural splendor of Lake Nakuru, where flamingos, diverse wildlife, and stunning landscapes create a mesmerizing oasis.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Lake-Nakuru' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Lake Nakuru" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/red_elephant.png' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 14,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Tsavo</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Experience the untamed beauty of Tsavo, a captivating landscape where diverse wildlife and breathtaking natural wonders thrive.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Tsavo' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Tsavo" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/amboseli.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 18,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Amboseli</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>Embark on a captivating journey to Amboseli, a land of wide-open plains and iconic elephants, where the majestic Mount Kilimanjaro serves as a breathtaking backdrop to this renowned wildlife sanctuary.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Amboseli' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Amboseli" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/diani.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 15,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Diani</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>Experience the allure of Diani, a coastal paradise where pristine white sands, turquoise waters, and swaying palm trees create a tropical haven of relaxation and adventure.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Diani' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Diani" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/lake-naivasha.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 14,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Lake Naivasha</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Experience the serene beauty of Lake Naivasha, a captivating waterbody where abundant wildlife and stunning natural landscapes coexist harmoniously.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Lake-Naivasha' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Lake Naivasha" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/tsavo_samburu.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 14,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Samburu</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Experience the untamed allure of Samburu, where rugged landscapes, unique wildlife, and vibrant cultural traditions converge in a mesmerizing African wilderness.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Samburu' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Samburu" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/kakamega-forest.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 18,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Kakamega Forest</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>Discover the enchanting Kakamega Forest, where lush greenery, rare wildlife, and mystical wonders await.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Kakamega-Forest' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Kakamega Forest" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/nkare-ndare.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 15,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Nkare Ndare</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>Embark on an adventure to Nkare Ntare, where untouched wilderness and captivating landscapes beckon.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Nkare-Ndare' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="Nkare Ntare" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/mt-kenya.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 14,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Mt. Kenya</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>
+                            Embark on a thrilling journey to Mount Kenya, a majestic peak that captivates with its awe-inspiring beauty and challenging trails.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Mt-Kenya' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Mt. Kenya" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="package-item">
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="{% static 'base/img/destinations/chalbi-desert.jpg' %}" alt="">
+                    </div>
+                    <div class="d-flex border-bottom">
+                        <!-- <small class="flex-fill text-center border-end py-2">Ksh 18,900.00</small> -->
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                    </div>
+                    <div class="text-center p-4">
+                        <h3 class="mb-0">Chalbi Desert</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                        </div>
+                        <p>Unleash your spirit of adventure in the mesmerizing Chalbi Desert, where vast stretches of golden sand dunes and a sense of untouched solitude create an unforgettable desert experience.</p>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a href="{% url 'destination_details' tag='Chalbi-Desert' %}" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="{% url 'booking' %}?destination=Chalbi Desert" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Package End -->
+
+
+{% endblock %}
