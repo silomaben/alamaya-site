@@ -11,7 +11,7 @@ class Video(models.Model):
     
 class Gallery(models.Model):
     title = models.CharField(max_length=70)
-    tag = models.CharField(max_length=100 ,default='lions',choices=[('birds', 'birds'), ('wildebeest', 'wildebeest'),('buffalo', 'buffalo'), ('rhinos', 'rhinos'), ('elephants', 'elephants'),('lions', 'lions'), ('leopards', 'leopards'), ('Maasai Mara', 'Maasai Mara')])
+    tag = models.CharField(max_length=100 ,default='lions',choices=[('birds', 'birds'), ('wildebeest', 'wildebeest'),('buffalo', 'buffalo'), ('rhinos', 'rhinos'), ('elephants', 'elephants'),('lions', 'lions'), ('leopards', 'leopards'), ('Maasai Mara', 'Maasai Mara'),('Tsavo', 'Tsavo'),('Olpejeta', 'Olpejeta')])
     
     image = CloudinaryField()
 
