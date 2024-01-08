@@ -7444,3 +7444,1392 @@ Nkare Ndare
 Kakamega Forest
 Chalbi Desert
 Lake Naivasha
+Requested Range Not Satisfiable: /static/base/img/alamaya-adventures-limited.png
+[UID:2312][3238354] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2312][3238354] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3238354] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /apple-touch-icon-120x120-precomposed.png
+Not Found: /apple-touch-icon-120x120.png
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /apple-touch-icon.png
+Not Found: /robots.txt
+Not Found: /wp-admin/install.php
+Not Found: /wp-admin/setup-config.php
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 6, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2312][2200205] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Requested Range Not Satisfiable: /static/base/img/alamaya-adventures-limited.png
+Not Found: /cdn.js//cdn.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /cdn.js//cdn.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /wordpress
+Not Found: /wp-admin/setup-config.php
+Not Found: /wp-admin/install.php
+Not Found: /wp
+Not Found: /new
+Not Found: /old
+Not Found: /newsite
+Not Found: /test
+Not Found: /main
+Not Found: /testing
+Not Found: /site
+Not Found: /backup
+Not Found: /demo
+Not Found: /home
+Not Found: /tmp
+Not Found: /dev
+Not Found: /cms
+Not Found: /portal
+Not Found: /web
+Not Found: /robots.txt
+Not Found: /wp-content/plugins/fix/up.php//wp-content/plugins/fix/up.php
+Not Found: /robots.txt
+Not Found: /wp-content/plugins/fix/up.php//wp-content/plugins/fix/up.php
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1518860] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /robots.txt
+Lake Nakuru
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /cdn.js//cdn.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /dist/js/bootstrap.bundle.min.js
+Amboseli
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /wp-cron.php
+Not Found: /article/2
+Forbidden (Permission denied): /admin/auth/user/
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/contrib/admin/options.py", line 714, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1978, in changelist_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /gallery/album/Maasai Mara/blog/gallery/album/Maasai%20Mara/blog
+Not Found: /gallery/album/Maasai Mara/about-Alamaya-Adventure-Limited/gallery/album/Maasai%20Mara/about-Alamaya-Adventure-Limited
+Not Found: /gallery/album/Maasai Mara/booking/gallery/album/Maasai%20Mara/booking
+Not Found: /gallery/album/Maasai Mara/contact-us/gallery/album/Maasai%20Mara/contact-us
+Olpejeta
+Maasai Mara
+Lake Nakuru
+Not Found: /robots.txt
+Not Found: /robots.txt
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Diani
+Not Found: /wp-admin/setup-config.php
+Not Found: /wp-admin/install.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /about-Alamaya-Adventure-Limited/
+Not Found: /contact-us/
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][1555956] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /robots.txt
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /robots.txt
+Not Found: /wordpress
+Not Found: /wp-admin/setup-config.php
+Not Found: /wp-admin/install.php
+Not Found: /wp
+Not Found: /new
+Not Found: /old
+Not Found: /newsite
+Not Found: /test
+Not Found: /main
+Not Found: /testing
+Not Found: /site
+Not Found: /backup
+Not Found: /demo
+Not Found: /home
+Not Found: /tmp
+Not Found: /dev
+Not Found: /cms
+Not Found: /portal
+Not Found: /web
+Not Found: /robots.txt
+Not Found: /robots.txt
+Lake Nakuru
+Not Found: /robots.txt
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /simple.php
+Not Found: /robots.txt
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /wp-content/plugins/fix/up.php//wp-content/plugins/fix/up.php
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /wp-admin/css/
+Not Found: /.well-known/
+Not Found: /sites/default/files/
+Not Found: /uploads/
+Not Found: /images/
+Not Found: /files/
+Not Found: /chosen.php
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /wp-cron.php
+Not Found: /gallery/album/Lake Nakuru/contact-us/gallery/album/Lake%20Nakuru/contact-us
+Not Found: /gallery/album/Lake Nakuru/about-Alamaya-Adventure-Limited/gallery/album/Lake%20Nakuru/about-Alamaya-Adventure-Limited
+Not Found: /gallery/album/Lake Nakuru/blog/gallery/album/Lake%20Nakuru/blog
+Not Found: /gallery/album/Lake Nakuru/booking/gallery/album/Lake%20Nakuru/booking
+Maasai Mara
+Olpejeta
+Lake Nakuru
+Not Found: /sitemap
+Not Found: /alfa-rex.php7//alfa-rex.php7
+Not Found: /alfanew.php//alfanew.php
+Not Found: /wp-content/plugins/Cache/Cache.php//wp-content/plugins/Cache/Cache.php
+Not Found: /wp-admin/js/widgets/about.php7//wp-admin/js/widgets/about.php7
+Not Found: /wp-p.php7//wp-p.php7
+Not Found: /wp-admin/repeater.php//wp-admin/repeater.php
+Not Found: /wp-includes/repeater.php//wp-includes/repeater.php
+Not Found: /wp-content/repeater.php//wp-content/repeater.php
+Not Found: /yanz.php//yanz.php
+Not Found: /wp-admin/js/about.php//wp-admin/js/about.php
+Not Found: /wp-content/plugins/seoo/wsoyanz.php//wp-content/plugins/seoo/wsoyanz.php
+Not Found: /wp-content/plugins/seoo/wsoyanz1.php//wp-content/plugins/seoo/wsoyanz1.php
+Not Found: /cache-compat.php//cache-compat.php
+Not Found: /ajax-actions.php//ajax-actions.php
+Not Found: /wp-admin/ajax-actions.php//wp-admin/ajax-actions.php
+Not Found: /wp-consar.php//wp-consar.php
+Not Found: /repeater.php//repeater.php
+Not Found: /admin-post.php//admin-post.php
+Not Found: /wp-admin/maint/maint/ajax-actions.php//wp-admin/maint/maint/ajax-actions.php
+Not Found: /wp-admin/dropdown.php//wp-admin/dropdown.php
+Not Found: /wp-admin/css/index.php//wp-admin/css/index.php
+Not Found: /dropdown.php//dropdown.php
+Not Found: /about.php//about.php
+Not Found: /admin.php//admin.php
+Not Found: /about.php7//about.php7
+Not Found: /alfanew.php7
+Not Found: /adminfuns.php7//adminfuns.php7
+Not Found: /ebs.php7//ebs.php7
+Not Found: /ws.php7//ws.php7
+Not Found: /alfanew2.php7//alfanew2.php7
+Not Found: /alfa-rex2.php7
+Not Found: /ioxi-rex4.php7
+Not Found: /wp-content/plugins/seoo/alfa-ioxi.php//wp-content/plugins/seoo/alfa-ioxi.php
+Not Found: /wp-content/plugins/classic-editor/wp-login.php//wp-content/plugins/classic-editor/wp-login.php
+Not Found: /wp-head.php//wp-head.php
+Not Found: /.well-known/pki-validation/xmrlpc.php//.well-known/pki-validation/xmrlpc.php
+Not Found: /wp-includes/js/tinymce/skins/lightgray/img/index.php//wp-includes/js/tinymce/skins/lightgray/img/index.php
+Not Found: /.well-known/acme-challenge/xmrlpc.php//.well-known/acme-challenge/xmrlpc.php
+Not Found: /wp-admin/network/xmrlpc.php//wp-admin/network/xmrlpc.php
+Not Found: /xmrlpc.php//xmrlpc.php
+Not Found: /css/xmrlpc.php//css/xmrlpc.php
+Not Found: /wp-admin/user/xmrlpc.php//wp-admin/user/xmrlpc.php
+Not Found: /img/xmrlpc.php//img/xmrlpc.php
+Not Found: /wp-admin/css/colors/coffee/xmrlpc.php//wp-admin/css/colors/coffee/xmrlpc.php
+Not Found: /wp-admin/images/xmrlpc.php//wp-admin/images/xmrlpc.php
+Not Found: /images/xmrlpc.php//images/xmrlpc.php
+Not Found: /wp-admin/js/widgets/xmrlpc.php//wp-admin/js/widgets/xmrlpc.php
+Not Found: /wp-admin/css/colors/xmrlpc.php//wp-admin/css/colors/xmrlpc.php
+Not Found: /wp-admin/includes/xmrlpc.php//wp-admin/includes/xmrlpc.php
+Not Found: /wp-admin/css/colors/blue/xmrlpc.php//wp-admin/css/colors/blue/xmrlpc.php
+Not Found: /wp-admin/xmrlpc.php//wp-admin/xmrlpc.php
+Not Found: /wso112233.php//wso112233.php
+Not Found: /dropdown.php//dropdown.php
+Not Found: /wp-content/dropdown.php//wp-content/dropdown.php
+Not Found: /wp-includes/dropdown.php//wp-includes/dropdown.php
+Not Found: /wp-admin/dropdown.php//wp-admin/dropdown.php
+Not Found: /cjfuns.php
+Not Found: /.well-known/index.php//.well-known/index.php
+Not Found: /wp-content/plugins/seoplugins/mar.php//wp-content/plugins/seoplugins/mar.php
+Not Found: /wp-content/themes/seotheme/mar.php//wp-content/themes/seotheme/mar.php
+Not Found: /images/mar.php//images/mar.php
+Not Found: /marijuana.php//marijuana.php
+Not Found: /wp-admin/css/colors/coffee/mari.php//wp-admin/css/colors/coffee/mari.php
+Not Found: /wp-admin/css/colors/coffee/marijuana.php//wp-admin/css/colors/coffee/marijuana.php
+Not Found: /wp-admin/css/colors/maro.php//wp-admin/css/colors/maro.php
+Not Found: /wp-admin/css/mari.php//wp-admin/css/mari.php
+Not Found: /wp-admin/css/maro.php//wp-admin/css/maro.php
+Not Found: /wp-admin/mari.php
+Not Found: /wp-includes/mari.php
+Not Found: /wp-content/mari.php
+Not Found: /css/index.php//css/index.php
+Not Found: /radio.php//radio.php
+Not Found: /wp-content/plugins/seoplugins/db.php//wp-content/plugins/seoplugins/db.php
+Not Found: /wp-content/plugins/ccx/index.php//wp-content/plugins/ccx/index.php
+Not Found: /ccx/index.php//ccx/index.php
+Not Found: /wp-content/plugins/ccx/index.php//wp-content/plugins/ccx/index.php
+Not Found: /wp-content/themes/ccx/index.php//wp-content/themes/ccx/index.php
+Not Found: /robots.txt
+Not Found: /gallery/album/Maasai Mara/about-Alamaya-Adventure-Limited/gallery/album/Maasai%20Mara/about-Alamaya-Adventure-Limited
+Olpejeta
+Mt Kenya
+Amboseli
+Nkare Ndare
+Not Found: /robots.txt
+Not Found: /humans.txt
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /wp-admin/setup-config.php//wp-admin/setup-config.php
+Not Found: /old/wp-admin/setup-config.php//old/wp-admin/setup-config.php
+Not Found: /wordpress/wp-admin/setup-config.php//wordpress/wp-admin/setup-config.php
+Not Found: /backup/wp-admin/setup-config.php//backup/wp-admin/setup-config.php
+Not Found: /OLD/wp-admin/setup-config.php//OLD/wp-admin/setup-config.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Maasai Mara
+Not Found: /ads.txt
+Not Found: /app-ads.txt
+Not Found: /robots.txt
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /dist/js/bootstrap.bundle.min.js
+Not Found: /cdn.js//cdn.js
+Not Found: /code.jquery.com/jquery-3.4.1.min.js//code.jquery.com/jquery-3.4.1.min.js
+Not Found: /robots.txt
+Not Found: /inputs.php
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /wp-admin/setup-config.php//wp-admin/setup-config.php
+Not Found: /old/wp-admin/setup-config.php//old/wp-admin/setup-config.php
+Not Found: /wordpress/wp-admin/setup-config.php//wordpress/wp-admin/setup-config.php
+Not Found: /OLD/wp-admin/setup-config.php//OLD/wp-admin/setup-config.php
+Not Found: /feed//feed/
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /blog/wp-includes/wlwmanifest.xml//blog/wp-includes/wlwmanifest.xml
+Not Found: /web/wp-includes/wlwmanifest.xml//web/wp-includes/wlwmanifest.xml
+Not Found: /wordpress/wp-includes/wlwmanifest.xml//wordpress/wp-includes/wlwmanifest.xml
+Not Found: /wp/wp-includes/wlwmanifest.xml//wp/wp-includes/wlwmanifest.xml
+Not Found: /2020/wp-includes/wlwmanifest.xml//2020/wp-includes/wlwmanifest.xml
+Not Found: /2019/wp-includes/wlwmanifest.xml//2019/wp-includes/wlwmanifest.xml
+Not Found: /2021/wp-includes/wlwmanifest.xml//2021/wp-includes/wlwmanifest.xml
+Not Found: /shop/wp-includes/wlwmanifest.xml//shop/wp-includes/wlwmanifest.xml
+Not Found: /wp1/wp-includes/wlwmanifest.xml//wp1/wp-includes/wlwmanifest.xml
+Not Found: /test/wp-includes/wlwmanifest.xml//test/wp-includes/wlwmanifest.xml
+Not Found: /site/wp-includes/wlwmanifest.xml//site/wp-includes/wlwmanifest.xml
+Not Found: /cms/wp-includes/wlwmanifest.xml//cms/wp-includes/wlwmanifest.xml
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Olpejeta
+Maasai Mara
+Lake Nakuru
+Not Found: /robots.txt
+Not Found: /Nkare Ntare/Nkare%20Ntare
+Mt Kenya
+Nkare Ndare
+Diani
+Tsavo
+Samburu
+Amboseli
+Not Found: /Nkare Ntare/Nkare%20Ntare
+Not Found: /robots.txt
+Amboseli
+Chalbi Desert
+Diani
+Kakamega Forest
+Lake Naivasha
+Lake Nakuru
+Maasai Mara
+Mt.%20Kenya
+Nkare Ndare
+Olpejeta
+Samburu
+Tsavo
+Olpejeta
+Not Found: /robots.txt
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /adminer.php
+Not Found: /robots.txt
+Not Found: /destination/Mt. Kenya/about-Alamaya-Adventure-Limited/destination/Mt.%20Kenya/about-Alamaya-Adventure-Limited
+Not Found: /destination/Mt. Kenya/blog/destination/Mt.%20Kenya/blog
+Not Found: /destination/Mt. Kenya/booking/destination/Mt.%20Kenya/booking
+Not Found: /destination/Mt. Kenya/contact-us/destination/Mt.%20Kenya/contact-us
+Not Found: /destination/Mt. Kenya/gallery/destination/Mt.%20Kenya/gallery
+Not Found: /destination/Mt. Kenya/packages/destination/Mt.%20Kenya/packages
+Not Found: /destination/Mt. Kenya/view_destinations/destination/Mt.%20Kenya/view_destinations
+Not Found: /gallery/album/Lake Nakuru/about-Alamaya-Adventure-Limited/gallery/album/Lake%20Nakuru/about-Alamaya-Adventure-Limited
+Not Found: /gallery/album/Lake Nakuru/blog/gallery/album/Lake%20Nakuru/blog
+Not Found: /gallery/album/Lake Nakuru/booking/gallery/album/Lake%20Nakuru/booking
+Not Found: /gallery/album/Lake Nakuru/contact-us/gallery/album/Lake%20Nakuru/contact-us
+Not Found: /gallery/album/Lake Nakuru/gallery/gallery/album/Lake%20Nakuru/gallery
+Not Found: /gallery/album/Lake Nakuru/packages/gallery/album/Lake%20Nakuru/packages
+Not Found: /gallery/album/Lake Nakuru/view_destinations/gallery/album/Lake%20Nakuru/view_destinations
+Not Found: /gallery/album/Maasai Mara/about-Alamaya-Adventure-Limited/gallery/album/Maasai%20Mara/about-Alamaya-Adventure-Limited
+Not Found: /gallery/album/Maasai Mara/blog/gallery/album/Maasai%20Mara/blog
+Not Found: /gallery/album/Maasai Mara/booking/gallery/album/Maasai%20Mara/booking
+Not Found: /gallery/album/Maasai Mara/contact-us/gallery/album/Maasai%20Mara/contact-us
+Not Found: /gallery/album/Maasai Mara/gallery/gallery/album/Maasai%20Mara/gallery
+Not Found: /gallery/album/Maasai Mara/packages/gallery/album/Maasai%20Mara/packages
+Not Found: /gallery/album/Maasai Mara/view_destinations/gallery/album/Maasai%20Mara/view_destinations
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /robots.txt
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Mt Kenya
+Not Found: /gallery/album/Lake Nakuru/about-Alamaya-Adventure-Limited/gallery/album/Lake%20Nakuru/about-Alamaya-Adventure-Limited
+Not Found: /gallery/album/Lake Nakuru/blog/gallery/album/Lake%20Nakuru/blog
+Not Found: /gallery/album/Lake Nakuru/booking/gallery/album/Lake%20Nakuru/booking
+Not Found: /robots.txt
+Not Found: /gallery/album/Maasai Mara/about-Alamaya-Adventure-Limited/gallery/album/Maasai%20Mara/about-Alamaya-Adventure-Limited
+Not Found: /gallery/album/Maasai Mara/blog/gallery/album/Maasai%20Mara/blog
+Not Found: /gallery/album/Maasai Mara/booking/gallery/album/Maasai%20Mara/booking
+Not Found: /gallery/album/Maasai Mara/contact-us/gallery/album/Maasai%20Mara/contact-us
+Not Found: /gallery/album/Maasai Mara/gallery/gallery/album/Maasai%20Mara/gallery
+Not Found: /gallery/album/Maasai Mara/packages/gallery/album/Maasai%20Mara/packages
+Not Found: /gallery/album/Maasai Mara/view_destinations/gallery/album/Maasai%20Mara/view_destinations
+Not Found: /wordpress/
+Not Found: /wp/
+Not Found: /blog/
+Not Found: /old/
+Not Found: /new/
+Not Found: /test/
+Not Found: /backup/
+Not Found: /temp/
+Not Found: /robots.txt
+Not Found: /gallery/album/Lake Nakuru/contact-us/gallery/album/Lake%20Nakuru/contact-us
+Not Found: /gallery/album/Lake Nakuru/gallery/gallery/album/Lake%20Nakuru/gallery
+Not Found: /.well-known/security.txt
+Not Found: /robots.txt
+Not Found: /gallery/album/Lake Nakuru/packages/gallery/album/Lake%20Nakuru/packages
+Not Found: /robots.txt
+Not Found: /gallery/album/Lake Nakuru/view_destinations/gallery/album/Lake%20Nakuru/view_destinations
+Not Found: /robots.txt
+Nkare Ndare
+Olpejeta
+Tsavo
+Amboseli
+Not Found: /robots.txt
+Kakamega Forest
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-admin/install.php
+Not Found: /wp-admin/setup-config.php
+Lake Naivasha
+Chalbi Desert
+Not Found: /robots.txt
+Not Found: /wp-content/plugins/fix/up.php//wp-content/plugins/fix/up.php
+Not Found: /robots.txt
+Maasai Mara
+Not Found: /robots.txt
+Not Found: /inputs.php
+Not Found: /robots.txt
+Mt Kenya
+Not Found: /wp-json/wp/v2/users/3
+Not Found: /wp-json/wp/v2/users/5
+Not Found: /.well-known/acme-challenge/license.php
+Not Found: /.well-known/acme-challenge/iR7SzrsOUEP.php
+Not Found: /.well-known/pki-validation/iR7SzrsOUEP.php
+Not Found: /.well-known/acme-challenge/atomlib.php
+Not Found: /.well-known/pki-validation/x.php
+Not Found: /.well-known/pki-validation/ssl.php
+Not Found: /.well-known/pki-validation/cloud.php
+Not Found: /.well-known/acme-challenge/cloud.php
+Not Found: /.well-known/acme-challenge/wso112233.php
+Not Found: /.well-known/acme-challenge/shell20211028.php
+Not Found: /.well-known/acme-challenge/bala.php
+Not Found: /.well-known/pki-validation/xmrlpc.php
+Not Found: /.well-known/acme-challenge/xmrlpc.php
+Not Found: /.well-known/pki-validation/404.php
+Not Found: /.well-known/pki-validation/
+Not Found: /robots.txt
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+[UID:2312][1666689] Child process with pid: 1666704 was killed by signal: 15, core dumped: no
+[UID:2312][1666689] Child process with pid: 1667806 was killed by signal: 15, core dumped: no
+Not Found: /filemanager/dialog.php
+Not Found: /assets/filemanager/dialog.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /wp-cron.php
+Olpejeta
+Maasai Mara
+Lake Nakuru
+Not Found: /wordpress/
+Not Found: /wp/
+Not Found: /blog/
+Not Found: /old/
+Not Found: /new/
+Not Found: /test/
+Not Found: /backup/
+Not Found: /temp/
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /wp-login.php//wp-login.php
+Not Found: /robots.txt
+Mt Kenya
+Not Found: /wp-content/plugins/classic-editor/wp-login.php//wp-content/plugins/classic-editor/wp-login.php
+Not Found: /.tmb/wp-login.php//.tmb/wp-login.php
+Not Found: /.well-known/acme-challenge/wp-login.php//.well-known/acme-challenge/wp-login.php
+Not Found: /.well-known/pki-validation/wp-login.php//.well-known/pki-validation/wp-login.php
+Not Found: /images/wp-login.php//images/wp-login.php
+Not Found: /wp-admin/css/wp-login.php//wp-admin/css/wp-login.php
+Not Found: /wp-admin/images/wp-login.php//wp-admin/images/wp-login.php
+Not Found: /wp-admin/includes/wp-login.php//wp-admin/includes/wp-login.php
+Not Found: /wp-admin/maint/wp-login.php//wp-admin/maint/wp-login.php
+Not Found: /wp-admin/network/wp-login.php//wp-admin/network/wp-login.php
+Not Found: /wp-admin/user/wp-login.php//wp-admin/user/wp-login.php
+Not Found: /wp-content/languages/wp-login.php//wp-content/languages/wp-login.php
+Not Found: /wp-content/plugins/wp-login.php//wp-content/plugins/wp-login.php
+Not Found: /wp-includes/certificates/wp-login.php//wp-includes/certificates/wp-login.php
+Not Found: /wp-includes/customize/wp-login.php//wp-includes/customize/wp-login.php
+Not Found: /wp-includes/fonts/wp-login.php//wp-includes/fonts/wp-login.php
+Not Found: /wp-includes/pomo/wp-login.php//wp-includes/pomo/wp-login.php
+Not Found: /wp-includes/IXR/wp-login.php//wp-includes/IXR/wp-login.php
+Not Found: /simple.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /humans.txt
+Not Found: /ads.txt
+Not Found: /wp-admin/setup-config.php
+Not Found: /wp-admin/install.php
+Not Found: /wp-content/plugins/classic-editor/wp-login.php//wp-content/plugins/classic-editor/wp-login.php
+Not Found: /.tmb/wp-login.php//.tmb/wp-login.php
+Not Found: /.well-known/acme-challenge/wp-login.php//.well-known/acme-challenge/wp-login.php
+Not Found: /.well-known/pki-validation/wp-login.php//.well-known/pki-validation/wp-login.php
+Not Found: /images/wp-login.php//images/wp-login.php
+Not Found: /wp-admin/css/wp-login.php//wp-admin/css/wp-login.php
+Not Found: /wp-admin/images/wp-login.php//wp-admin/images/wp-login.php
+Not Found: /wp-admin/includes/wp-login.php//wp-admin/includes/wp-login.php
+Not Found: /wp-admin/maint/wp-login.php//wp-admin/maint/wp-login.php
+Not Found: /wp-admin/network/wp-login.php//wp-admin/network/wp-login.php
+Not Found: /wp-admin/user/wp-login.php//wp-admin/user/wp-login.php
+Not Found: /wp-content/languages/wp-login.php//wp-content/languages/wp-login.php
+Not Found: /wp-content/plugins/wp-login.php//wp-content/plugins/wp-login.php
+Not Found: /wp-includes/certificates/wp-login.php//wp-includes/certificates/wp-login.php
+Not Found: /wp-includes/customize/wp-login.php//wp-includes/customize/wp-login.php
+Not Found: /wp-includes/fonts/wp-login.php//wp-includes/fonts/wp-login.php
+Not Found: /wp-includes/pomo/wp-login.php//wp-includes/pomo/wp-login.php
+Not Found: /wp-includes/IXR/wp-login.php//wp-includes/IXR/wp-login.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /simple.php
+Not Found: /sitemaps.xml
+Not Found: /sitemaps.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-content/plugins/td-composer/license.txt
+Not Found: /wp-content/plugins/td-composer/license.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /.well-known/security.txt
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][4017491] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+Not Found: /robots.txt
+Not Found: /sitemap_index.xml
+Not Found: /tel:+254790803673
+Not Found: /sitemap_index.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /gallery/album/Lake Nakuru/blog/gallery/album/Lake%20Nakuru/blog
+Not Found: /robots.txt
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-json/wp/v2/users
+Not Found: /wp-login.php
+Not Found: /robots.txt
+Lake Nakuru
+Not Found: /.well-known/acme-challenge/license.php
+Not Found: /.well-known/acme-challenge/iR7SzrsOUEP.php
+Not Found: /.well-known/pki-validation/iR7SzrsOUEP.php
+Not Found: /.well-known/acme-challenge/atomlib.php
+Not Found: /.well-known/pki-validation/x.php
+Not Found: /.well-known/pki-validation/ssl.php
+Not Found: /.well-known/pki-validation/cloud.php
+Not Found: /.well-known/acme-challenge/cloud.php
+Not Found: /.well-known/acme-challenge/wso112233.php
+Not Found: /.well-known/acme-challenge/shell20211028.php
+Not Found: /.well-known/acme-challenge/bala.php
+Not Found: /.well-known/pki-validation/xmrlpc.php
+Not Found: /.well-known/acme-challenge/xmrlpc.php
+Not Found: /.well-known/pki-validation/404.php
+Not Found: /.well-known/pki-validation/
+[UID:2312][2920909] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2312][2920909] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2920909] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2920909] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2920909] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2920909] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Lake Nakuru
+Olpejeta
+Not Found: /robots.txt
+Not Found: /sitemap.xml.gz
+Not Found: /sitemap.xml.gz
+Not Found: /robots.txt
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /wp-includes/ID3/license.txt//wp-includes/ID3/license.txt
+Not Found: /feed//feed/
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /blog/wp-includes/wlwmanifest.xml//blog/wp-includes/wlwmanifest.xml
+Not Found: /web/wp-includes/wlwmanifest.xml//web/wp-includes/wlwmanifest.xml
+Not Found: /wordpress/wp-includes/wlwmanifest.xml//wordpress/wp-includes/wlwmanifest.xml
+Not Found: /wp/wp-includes/wlwmanifest.xml//wp/wp-includes/wlwmanifest.xml
+Not Found: /2020/wp-includes/wlwmanifest.xml//2020/wp-includes/wlwmanifest.xml
+Not Found: /2019/wp-includes/wlwmanifest.xml//2019/wp-includes/wlwmanifest.xml
+Not Found: /2021/wp-includes/wlwmanifest.xml//2021/wp-includes/wlwmanifest.xml
+Not Found: /shop/wp-includes/wlwmanifest.xml//shop/wp-includes/wlwmanifest.xml
+Not Found: /wp1/wp-includes/wlwmanifest.xml//wp1/wp-includes/wlwmanifest.xml
+Not Found: /test/wp-includes/wlwmanifest.xml//test/wp-includes/wlwmanifest.xml
+Not Found: /site/wp-includes/wlwmanifest.xml//site/wp-includes/wlwmanifest.xml
+Not Found: /cms/wp-includes/wlwmanifest.xml//cms/wp-includes/wlwmanifest.xml
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /sitemap
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /tel:+254790803673
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /.env
+Not Found: /.env
+Not Found: /.env
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /wp-content/plugins/td-composer/license.txt
+Not Found: /robots.txt
+Nkare Ndare
+Not Found: /robots.txt
+Not Found: /wp-json/wp/v2/users/3
+Not Found: /wp-json/wp/v2/users/5
+Not Found: /tel:+254790803673
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /gallery/album/Lake Nakuru/contact-us/gallery/album/Lake%20Nakuru/contact-us
+Not Found: /gallery/album/Maasai Mara/contact-us/gallery/album/Maasai%20Mara/contact-us
+Not Found: /gallery/album/Lake Nakuru/about-Alamaya-Adventure-Limited/gallery/album/Lake%20Nakuru/about-Alamaya-Adventure-Limited
+Not Found: /gallery/album/Maasai Mara/about-Alamaya-Adventure-Limited/gallery/album/Maasai%20Mara/about-Alamaya-Adventure-Limited
+Not Found: /gallery/album/Lake Nakuru/contact-us/gallery/album/Lake%20Nakuru/contact-us
+Not Found: /gallery/album/Lake Nakuru/about-Alamaya-Adventure-Limited/gallery/album/Lake%20Nakuru/about-Alamaya-Adventure-Limited
+Not Found: /gallery/album/Maasai Mara/contact-us/gallery/album/Maasai%20Mara/contact-us
+Not Found: /gallery/album/Maasai Mara/about-Alamaya-Adventure-Limited/gallery/album/Maasai%20Mara/about-Alamaya-Adventure-Limited
+Not Found: /Nkare Ntare/Nkare%20Ntare
+Not Found: /gallery/album/Lake Nakuru/blog/gallery/album/Lake%20Nakuru/blog
+Not Found: /gallery/album/Lake Nakuru/booking/gallery/album/Lake%20Nakuru/booking
+Not Found: /gallery/album/Lake Nakuru/gallery/gallery/album/Lake%20Nakuru/gallery
+Not Found: /gallery/album/Lake Nakuru/packages/gallery/album/Lake%20Nakuru/packages
+Not Found: /gallery/album/Lake Nakuru/view_destinations/gallery/album/Lake%20Nakuru/view_destinations
+Not Found: /gallery/album/Maasai Mara/blog/gallery/album/Maasai%20Mara/blog
+Not Found: /gallery/album/Maasai Mara/booking/gallery/album/Maasai%20Mara/booking
+Not Found: /gallery/album/Maasai Mara/gallery/gallery/album/Maasai%20Mara/gallery
+Not Found: /gallery/album/Maasai Mara/packages/gallery/album/Maasai%20Mara/packages
+Not Found: /gallery/album/Maasai Mara/view_destinations/gallery/album/Maasai%20Mara/view_destinations
+Not Found: /Nkare Ntare/Nkare%20Ntare
+Not Found: /gallery/album/Lake Nakuru/blog/gallery/album/Lake%20Nakuru/blog
+Not Found: /gallery/album/Lake Nakuru/booking/gallery/album/Lake%20Nakuru/booking
+Not Found: /gallery/album/Lake Nakuru/gallery/gallery/album/Lake%20Nakuru/gallery
+Not Found: /gallery/album/Lake Nakuru/packages/gallery/album/Lake%20Nakuru/packages
+Not Found: /gallery/album/Lake Nakuru/view_destinations/gallery/album/Lake%20Nakuru/view_destinations
+Not Found: /gallery/album/Maasai Mara/blog/gallery/album/Maasai%20Mara/blog
+Not Found: /gallery/album/Maasai Mara/booking/gallery/album/Maasai%20Mara/booking
+Not Found: /gallery/album/Maasai Mara/gallery/gallery/album/Maasai%20Mara/gallery
+Not Found: /gallery/album/Maasai Mara/packages/gallery/album/Maasai%20Mara/packages
+Not Found: /gallery/album/Maasai Mara/view_destinations/gallery/album/Maasai%20Mara/view_destinations
+Not Found: /util/login.aspx
+Not Found: /install.php
+Not Found: /magento_version
+Amboseli
+Chalbi Desert
+Diani
+Mt Kenya
+Nkare Ndare
+Samburu
+Kakamega Forest
+Lake Naivasha
+Tsavo
+Amboseli
+Chalbi Desert
+Diani
+Lake Naivasha
+Tsavo
+Lake Nakuru
+Maasai Mara
+Olpejeta
+Lake Nakuru
+Maasai Mara
+Olpejeta
+Kakamega Forest
+Mt Kenya
+Nkare Ndare
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wordpress/
+Not Found: /wp/
+Not Found: /blog/
+Not Found: /old/
+Not Found: /new/
+Not Found: /test/
+Not Found: /backup/
+Not Found: /temp/
+Not Found: /robots.txt
+Not Found: /sitemap_index.xml
+Not Found: /robots.txt
+Not Found: /sitemap_index.xml
+Not Found: /wp-22.php
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /.env
+Not Found: /.env
+Not Found: /.vscode/sftp.json
+Not Found: /.vscode/sftp.json
+Not Found: /.env
+Forbidden (Referer checking failed - no Referer.): /
+Not Found: /public/.env
+Not Found: /app/.env
+Not Found: /core/.env
+Not Found: /vendor/.env
+Not Found: /lib/.env
+Not Found: /lab/.env
+Not Found: /cronlab/.env
+Not Found: /cron/.env
+Not Found: /core/app/.env
+Not Found: /core/Database/.env
+Not Found: /database/.env
+Not Found: /config/.env
+Not Found: /assets/.env
+Not Found: /apps/.env
+Not Found: /uploads/.env
+Not Found: /sitemaps/.env
+Not Found: /site/.env
+Not Found: /web/.env
+Not Found: /en/.env
+Not Found: /tools/.env
+Not Found: /v1/.env
+Not Found: /administrator/.env
+Not Found: /laravel/.env
+Not Found: /prod/.env
+Not Found: /robots.txt
+Olpejeta
+Not Found: /.well-known/acme-challenge/license.php
+Not Found: /.well-known/acme-challenge/iR7SzrsOUEP.php
+Not Found: /.well-known/pki-validation/iR7SzrsOUEP.php
+Not Found: /.well-known/acme-challenge/atomlib.php
+Not Found: /.well-known/pki-validation/x.php
+Not Found: /.well-known/pki-validation/ssl.php
+Not Found: /.well-known/pki-validation/cloud.php
+Not Found: /.well-known/acme-challenge/cloud.php
+Not Found: /.well-known/acme-challenge/wso112233.php
+Not Found: /.well-known/acme-challenge/shell20211028.php
+Not Found: /.well-known/acme-challenge/bala.php
+Not Found: /.well-known/pki-validation/xmrlpc.php
+Not Found: /.well-known/acme-challenge/xmrlpc.php
+Not Found: /.well-known/pki-validation/404.php
+Not Found: /.well-known/acme-challenge/admin.php
+Not Found: /.well-known/acme-challenge/wp-signup.php
+Not Found: /.well-known/acme-challenge/install.php
+Not Found: /.well-known/pki-validation/
+Internal Server Error: /contact-us
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 115, in contact
+    send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][2387480] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: /.well-known/acme-challenge/license.php
+Not Found: /.well-known/acme-challenge/iR7SzrsOUEP.php
+Not Found: /.well-known/pki-validation/iR7SzrsOUEP.php
+Not Found: /.well-known/acme-challenge/atomlib.php
+Not Found: /.well-known/pki-validation/x.php
+Not Found: /.well-known/pki-validation/ssl.php
+Not Found: /.well-known/pki-validation/cloud.php
+Not Found: /.well-known/acme-challenge/cloud.php
+Not Found: /.well-known/acme-challenge/wso112233.php
+Not Found: /.well-known/acme-challenge/shell20211028.php
+Not Found: /.well-known/acme-challenge/bala.php
+Not Found: /.well-known/pki-validation/xmrlpc.php
+Not Found: /.well-known/acme-challenge/xmrlpc.php
+Not Found: /.well-known/pki-validation/404.php
+Not Found: /.well-known/acme-challenge/admin.php
+Not Found: /.well-known/acme-challenge/wp-signup.php
+Not Found: /.well-known/acme-challenge/install.php
+Not Found: /.well-known/pki-validation/
+Not Found: /sitemap.xml
+Not Found: /sitemap.xmml
+Not Found: /sitemap.xml
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /article/2
+Not Found: /robots.txt
