@@ -33,12 +33,15 @@
 
 <div class="container-xxl py-5">
     <div class="container">
-        
-        <div class="post-content">
-            {{post.body2|safe}}
+        <div class="row justify-content-center">
+            <div class="col-lg-8" style="text-align: center;">
+                <div class="post-content" style="text-indent: 20px;">
+                    {{ post.body2 | safe }}
+                </div>
+            </div>
         </div>
-
     </div>
 </div>
+
 
 {% endblock %}

@@ -77,32 +77,32 @@
                         </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control bg-transparent" id="name" name="name" placeholder="Your Name">
+                                    <input type="text" style="color: white;" class="form-control bg-transparent" id="name" name="name" placeholder="Your Name">
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control bg-transparent" id="email" name="email" placeholder="Your Email">
+                                    <input type="email" style="color: white;" class="form-control bg-transparent" id="email" name="email" placeholder="Your Email">
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control bg-transparent" id="phoneno" name="phone_no" placeholder="Your Phone Number">
+                                    <input type="text" style="color: white;" class="form-control bg-transparent" id="phoneno" name="phone_no" placeholder="Your Phone Number">
                                     <label for="phoneno">Your Phone Number</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="number" class="form-control bg-transparent" id="number-of-guests" name="number-of-guests" placeholder="Number of Guests" min="0" max="14">
+                                    <input type="number" style="color: white;" class="form-control bg-transparent" id="number-of-guests" name="number-of-guests" placeholder="Number of Guests" min="0" max="14">
                                     <label for="number-of-guests">Number of Guests</label>
                                 </div>
                             </div>
                             
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <select class="form-select bg-transparent" id="select1" name="destination">
+                                    <select class="form-select custom-select" id="select1" name="destination" onchange="updateSelectColor(this)">
                                         {% if destination %}
                                             <option value="{{ destination }}">{{ destination }}</option>
                                         {% endif %}
@@ -125,20 +125,20 @@
                             
                             <div class="col-md-6">
                                 <div class="form-floating date" id="dateFrom" data-target-input="nearest">
-                                    <input type="text" class="form-control bg-transparent datetimepicker-input" id="datetime" name="datetime" placeholder="Date From:" data-target="#dateFrom" data-toggle="datetimepicker" />
+                                    <input type="text" style="color: white;" class="form-control bg-transparent datetimepicker-input" id="datetime" name="datetime" placeholder="Date From:" data-target="#dateFrom" data-toggle="datetimepicker" />
                                     <label for="datetime">Date From:</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating date" id="dateTo" data-target-input="nearest">
-                                    <input type="text" class="form-control bg-transparent datetimepicker-input" id="datetime1" name="datetime1" placeholder="Date To:" data-target="#dateTo" data-toggle="datetimepicker" />
+                                    <input type="text" style="color: white;" class="form-control bg-transparent datetimepicker-input" id="datetime1" name="datetime1" placeholder="Date To:" data-target="#dateTo" data-toggle="datetimepicker" />
                                     <label for="datetime1">Date To:</label>
                                 </div>
                             </div>
                             
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" name="message" style="height: 100px"></textarea>
+                                    <textarea style="color: white;" class="form-control bg-transparent" placeholder="Special Request" id="message" name="message" style="height: 100px"></textarea>
                                     <label for="message">Special Request</label>
                                 </div>
                             </div>
@@ -153,5 +153,4 @@
         </div>
     </div>
 </div>
-<!-- Booking Start -->
 {% endblock %}
