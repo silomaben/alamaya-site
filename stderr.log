@@ -8833,3 +8833,144 @@ Not Found: /robots.txt
 Not Found: /robots.txt
 Not Found: /article/2
 Not Found: /robots.txt
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /robots.txt
+Olpejeta
+Not Found: /robots.txt
+Not Found: /humans.txt
+Not Found: /ads.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Maasai Mara
+Not Found: /robots.txt
+Not Found: /robots.txt
+Maasai Mara
+Maasai Mara
+Maasai Mara
+Chalbi Desert
+Not Found: /sitemap.xml
+Diani
+Chalbi Desert
+Diani
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /wp-login.php
+Not Found: /robots.txt
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[UID:2312][3313092] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+Maasai Mara
+Not Found: /robots.txt
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+Not Found: /wp-cron.php
+Olpejeta
+Maasai Mara
+Lake Nakuru
+Not Found: /robots.txt
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Not Found: /robots.txt
+Kakamega Forest
+Not Found: /robots.txt
+Not Found: /tel:+254790803673
+Internal Server Error: /booking
+Traceback (most recent call last):
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alamayaa/alamayaadventures.com/base/views.py", line 69, in booking
+    send_mail(
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/__init__.py", line 87, in send_mail
+    return mail.send()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/message.py", line 300, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "/home/alamayaa/virtualenv/alamayaadventures.com/3.10/lib/python3.10/site-packages/django/core/mail/backends/smtp.py", line 94, in open
+    self.connection.login(self.username, self.password)
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 750, in login
+    raise last_exception
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+  File "/opt/alt/python310/lib64/python3.10/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Incorrect authentication data')
+Not Found: /robots.txt
+Olpejeta
+Lake Nakuru
+Not Found: /robots.txt
+Not Found: /wp-includes/wlwmanifest.xml//wp-includes/wlwmanifest.xml
+Not Found: /xmlrpc.php//xmlrpc.php
+Not Found: //
+Not Found: //
+Not Found: //
+Not Found: /wp-json/wp/v2/users//wp-json/wp/v2/users/
+Not Found: /wp-json/oembed/1.0/embed//wp-json/oembed/1.0/embed
+Not Found: /xmlrpc.php//xmlrpc.php
+Maasai Mara
+Not Found: /robots.txt
