@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'base',
     'cloudinary',
     'ckeditor',
+    'django.contrib.sitemaps'
 ]
 
 MIDDLEWARE = [

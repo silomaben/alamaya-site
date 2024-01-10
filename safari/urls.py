@@ -19,10 +19,17 @@ from django.urls import path,include
 
 from django.conf import settings
 from django.conf.urls.static import static
+from django.contrib.sitemaps.views import sitemap
+from base.sitemaps import StaticViewSitemap,BlogPostSitemap
 
+sitemaps ={
+    'static': StaticViewSitemap,
+    'snippet': BlogPostSitemap
+}
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('base.urls')),
+    path('sitemap.xml',sitemap, {'sitemaps': sitemaps}),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
