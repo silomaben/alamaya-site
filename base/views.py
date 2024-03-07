@@ -65,7 +65,7 @@ def booking(request):
 
                 #send email
                 subject = "Booking request from " + name
-                email_body = f"Name: {name}\nEmail: {email}\nPhone No: {phone_no}\nDestination:{destination} \nNumber of Guests: {no_of_guests}\nFrom : {datefrom} to {dateto}\n\Special Request:\n{message}"
+                email_body = f"Name: {name}\nEmail: {email}\nPhone No: {phone_no}\nDestination:{destination} \nNumber of Guests: {no_of_guests}\nFrom : {datefrom} to {dateto}\n\nSpecial Request:\n{message}"
                 send_mail(
                 subject,
                 email_body,
