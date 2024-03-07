@@ -385,6 +385,15 @@
             const dateToField = document.getElementById('datetime1');
             const bookingNotif = document.querySelector(".booking_notif");
 
+
+
+            const nameNotif = document.getElementById('nameNotif');
+            const emailNotif = document.getElementById('emailNotif');
+            const phoneNotif = document.getElementById('phoneNotif');
+            const destinationNotif = document.getElementById('destinationNotif');
+            const dateFromNotif = document.getElementById('dateFromNotif');
+            const dateToNotif = document.getElementById('dateToNotif');
+
             // bookingNotif.style.display = 'block';
 
             // console.log(bookingNotif);
@@ -396,47 +405,39 @@
                 if (nameField.value.trim() === '') {
                     valid = false;
                     nameField.classList.add('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    nameNotif.innerText  = "Name is required"
                 } else {
                     nameField.classList.remove('is-invalid');
-                    // bookingNotif.style.display = 'flex';
+                    nameNotif.innerText = ""
                 }
     
                 if (emailField.value.trim() === '' || !isValidEmail(emailField.value.trim())) {
                     valid = false;
                     emailField.classList.add('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    emailNotif.innerText  = "Enter correct email"
                 } else {
                     emailField.classList.remove('is-invalid');
-                    // bookingNotif.style.display = 'flex';
+                    emailNotif.innerText  = ""
                 }
     
                 if (phoneField.value.trim() === '') {
                     valid = false;
                     phoneField.classList.add('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    phoneNotif.innerText  = "Phone number is required"
                 } else {
                     phoneField.classList.remove('is-invalid');
-                    // bookingNotif.style.display = 'flex';
+                    phoneNotif.innerText  = ""
                 }
     
-                if (guestsField.value === '' || guestsField.value < 0 || guestsField.value > 14) {
-                    valid = false;
-                    guestsField.classList.add('is-invalid');
-                    bookingNotif.style.display = 'flex';
-                    
-                } else {
-                    guestsField.classList.remove('is-invalid');
-                    // bookingNotif.style.display = 'flex';
-                }
+                
     
                 if (destinationField.value === '') {
                     valid = false;
                     destinationField.classList.add('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    destinationNotif.innerText  = "Select a destination"
                 } else {
                     destinationField.classList.remove('is-invalid');
-                    // bookingNotif.style.display = 'flex';
+                    destinationNotif.innerText  = ""
                 }
     
                 const currentDate = new Date();
@@ -454,16 +455,14 @@
                     dateFromField.value = convertDateFormat(currentDate)
                     if(!dateFromField.classList.contains('is-invalid')){
                         dateFromField.classList.add('is-invalid')
-                        console.log('made red');
+                        
                     }
                     ; 
                     setTimeout(() => {
                             dateFromField.classList.remove('is-invalid');
-                            console.log('made clear');
                         }, 2000);         
                 } else {
                     dateFromField.classList.remove('is-invalid');
-                    // bookingNotif.style.display = 'flex';
                 }
     
                 if (selectedToDate < currentDate || selectedToDate < selectedFromDate) {
@@ -472,7 +471,6 @@
                     bookingNotif.style.display = 'flex';
                 } else {
                     dateToField.classList.remove('is-invalid');
-                    // bookingNotif.style.display = 'flex';
                 }
     
                 if (!valid) {
@@ -488,7 +486,6 @@
             function convertDateFormat(inputDate) {
                 // Create a new Date object from the input string
                 const dateObj = new Date(inputDate);
-
                 // Format the date and time components
                 const month = (dateObj.getMonth() + 1).toString().padStart(2, '0');
                 const day = dateObj.getDate().toString().padStart(2, '0');
@@ -499,7 +496,6 @@
 
                 // Format the final date string
                 const formattedDate = `${month}/${day}/${year} ${hours % 12 || 12}:${minutes} ${ampm}`;
-
                 return formattedDate;
                 }
         });
