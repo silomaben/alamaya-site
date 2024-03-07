@@ -399,7 +399,7 @@
                     bookingNotif.style.display = 'flex';
                 } else {
                     nameField.classList.remove('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    // bookingNotif.style.display = 'flex';
                 }
     
                 if (emailField.value.trim() === '' || !isValidEmail(emailField.value.trim())) {
@@ -408,7 +408,7 @@
                     bookingNotif.style.display = 'flex';
                 } else {
                     emailField.classList.remove('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    // bookingNotif.style.display = 'flex';
                 }
     
                 if (phoneField.value.trim() === '') {
@@ -417,16 +417,17 @@
                     bookingNotif.style.display = 'flex';
                 } else {
                     phoneField.classList.remove('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    // bookingNotif.style.display = 'flex';
                 }
     
                 if (guestsField.value === '' || guestsField.value < 0 || guestsField.value > 14) {
                     valid = false;
                     guestsField.classList.add('is-invalid');
                     bookingNotif.style.display = 'flex';
+                    
                 } else {
                     guestsField.classList.remove('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    // bookingNotif.style.display = 'flex';
                 }
     
                 if (destinationField.value === '') {
@@ -435,30 +436,43 @@
                     bookingNotif.style.display = 'flex';
                 } else {
                     destinationField.classList.remove('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    // bookingNotif.style.display = 'flex';
                 }
     
                 const currentDate = new Date();
+                currentDate.setHours(0, 0, 0, 0);
+
                 const selectedFromDate = new Date(dateFromField.value);
+                selectedFromDate.setHours(0, 0, 0, 0);
+
                 const selectedToDate = new Date(dateToField.value);
+                selectedToDate.setHours(0, 0, 0, 0);
     
                 // Check if the selected dates are in the past or are the same as today
-                if (selectedFromDate <= currentDate) {
+                if (selectedFromDate < currentDate) {
                     valid = false;
-                    dateFromField.classList.add('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    dateFromField.value = convertDateFormat(currentDate)
+                    if(!dateFromField.classList.contains('is-invalid')){
+                        dateFromField.classList.add('is-invalid')
+                        console.log('made red');
+                    }
+                    ; 
+                    setTimeout(() => {
+                            dateFromField.classList.remove('is-invalid');
+                            console.log('made clear');
+                        }, 2000);         
                 } else {
                     dateFromField.classList.remove('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    // bookingNotif.style.display = 'flex';
                 }
     
-                if (selectedToDate <= currentDate || selectedToDate < selectedFromDate) {
+                if (selectedToDate < currentDate || selectedToDate < selectedFromDate) {
                     valid = false;
                     dateToField.classList.add('is-invalid');
                     bookingNotif.style.display = 'flex';
                 } else {
                     dateToField.classList.remove('is-invalid');
-                    bookingNotif.style.display = 'flex';
+                    // bookingNotif.style.display = 'flex';
                 }
     
                 if (!valid) {
@@ -470,6 +484,24 @@
                 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
                 return emailRegex.test(email);
             }
+
+            function convertDateFormat(inputDate) {
+                // Create a new Date object from the input string
+                const dateObj = new Date(inputDate);
+
+                // Format the date and time components
+                const month = (dateObj.getMonth() + 1).toString().padStart(2, '0');
+                const day = dateObj.getDate().toString().padStart(2, '0');
+                const year = dateObj.getFullYear();
+                const hours = dateObj.getHours().toString().padStart(2, '0');
+                const minutes = dateObj.getMinutes().toString().padStart(2, '0');
+                const ampm = hours >= 12 ? 'PM' : 'AM';
+
+                // Format the final date string
+                const formattedDate = `${month}/${day}/${year} ${hours % 12 || 12}:${minutes} ${ampm}`;
+
+                return formattedDate;
+                }
         });
     }
     </script>
