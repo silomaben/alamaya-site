@@ -39,7 +39,7 @@ SECRET_KEY = 'django-insecure-f@vc)$che)oz76h(&8@6w&$g@d=&j9h1s!^+a3mzut)1irob@%
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["alamayaadventures.com","www.alamayaadventures.com","*"]
 

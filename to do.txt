@@ -1,15 +1,18 @@
+modify bookings form
+
+fix the booking form(smtpauthentication error.
+
+fix the contact us form(smtpauthentication error.
+have the text in the booking form have bolder color and stand out
+
 footer gallery be set alright
 tiktok icon
-have the text in the booking form have bolder color and stand out
 in maasai mara page, move the rhino up a bit
 the gallery images in homepage should be set up right
 have the moments be an area filled with images rather than differents albums
 the date to and from in booking should display calender when clicked to choose date
 change the booking form to have uniform background and make color bolder to note unfilled field on submission
-modify bookings form
-
 put site into production
 
-fix the contact us form(smtpauthentication error.
 create a blog 
 start the advert measures for alamaya adventures
