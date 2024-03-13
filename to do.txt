@@ -4,16 +4,19 @@ fix the contact us form(smtpauthentication error.
 footer gallery be set alright
 change the booking form to have uniform background and make color bolder to note unfilled field on submission
 
+
+Allow customers to request a quote
+
+
+
 the gallery images in homepage should be set up right
-
-
 have the text in the booking form have bolder color and stand out
 put site into production
 
 the date to and from in booking should display calender when clicked to choose date
-in maasai mara page, move the rhino up a bit
 have the moments be an area filled with images rather than differents albums
 tiktok icon
+in maasai mara page, move the rhino up a bit
 
 create a blog 
 start the advert measures for alamaya adventures
