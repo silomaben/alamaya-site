@@ -3,6 +3,9 @@ from .models import Video,Gallery,Destination
 from django.views.generic import ListView,DetailView
 from .models import Post
 
+from .forms import ContactForm
+from django.conf import settings
+
 
 from django.core.mail import send_mail
 from safari.settings import EMAIL_HOST_USER
@@ -103,25 +106,39 @@ def booking(request):
        
 
 def contact(request):
-    if request.method == "POST":
-        name = request.POST['name']
-        email = request.POST['email']
-        subject = request.POST['subject']
-        message = request.POST['message']
+        if request.method == "POST":
+                # name = request.POST['name']
+                # email = request.POST['email']
+                # subject = request.POST['subject']
+                # message = request.POST['message']
 
-        #send email
-        subject = "New message from " + name
-        email_body = f"Name: {name}\nEmail: {email}\nSubject: {subject}\n\nMessage:\n{message}"
-        send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
-        
-        message2 = f"Thank you for reaching out to Alamaya Adventures Limited! We have received your message and appreciate your inquiry.\n\nOur team is reviewing it and will respond soon.\n\nThank you for your patience, and we look forward to connecting with you shortly.\n\nBest regards,\nSamuel Ngugi\nAlamaya Adventures Limited"
+                form = ContactForm(request.POST)
 
-        send_mail("Thank you for contacting us!", message2, EMAIL_HOST_USER, [email])
-        
-        return render(request, 'contact.html',{} )
-    else:           
-        return render(request, 'contact.html', {})
-            
+                if form.is_valid():
+                        name = form.cleaned_data['name']
+                        email = form.cleaned_data['email']
+                        subject = form.cleaned_data['subject']
+                        message = form.cleaned_data['message']
+
+                        print(form.cleaned_data)
+
+
+                        
+                        subject = "New message from " + name
+                        email_body = f"Name: {name}\nEmail: {email}\nSubject: {subject}\n\nMessage:\n{message}"
+                        send_mail(subject, email_body, EMAIL_HOST_USER, ["kaybernard449@gmail.com","ignit3graphics@gmail.com"])
+                        
+                        message2 = f"Thank you for reaching out to Alamaya Adventures Limited! We have received your message and appreciate your inquiry.\n\nOur team is reviewing it and will respond soon.\n\nThank you for your patience, and we look forward to connecting with you shortly.\n\nBest regards,\nSamuel Ngugi\nAlamaya Adventures Limited"
+
+                        send_mail("Thank you for contacting us!", message2, EMAIL_HOST_USER, [email])
+
+                        return render(request, 'contact.html', {'form': form, 'success_message': 'Your message has been sent!','site_key':settings.RECAPTCHA_PUBLIC_KEY})
+        else:    
+                form = ContactForm()
+
+        return render(request, 'contact.html', {'form': form})
+
+      
     # return render(request, 'contact.html', {})
 
 

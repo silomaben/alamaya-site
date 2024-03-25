@@ -39,7 +39,7 @@ SECRET_KEY = 'django-insecure-f@vc)$che)oz76h(&8@6w&$g@d=&j9h1s!^+a3mzut)1irob@%
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["alamayaadventures.com","www.alamayaadventures.com","*"]
 
@@ -56,7 +56,8 @@ INSTALLED_APPS = [
     'base',
     'cloudinary',
     'ckeditor',
-    'django.contrib.sitemaps'
+    'django.contrib.sitemaps',
+    'django_recaptcha'
 ]
 
 MIDDLEWARE = [
@@ -158,7 +159,13 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+RECAPTCHA_PUBLIC_KEY = '6LcpVqIpAAAAAGAQhoDoamy_HXZxKIWwjobmKhEq'
+RECAPTCHA_PRIVATE_KEY = '6LcpVqIpAAAAAI6tb2c0Jza50AHJciMIy7OXi-X4'
 
+RECAPTCHA_PUBLIC_KEY = '6LfGZaQpAAAAAGvRyH7YGdehXHHJExPs5IkGLEzg'
+RECAPTCHA_PRIVATE_KEY = '6LfGZaQpAAAAAL2CtEfkf0N47ZgW2wSCdrQY_fXC'
+
+RECAPTCHA_REQUIRED_SCORE = 0.9
 
 # DEFAULT_FILE_STORAGE = cloudinary_storage.storage.MediaCloudinaryStorage
 

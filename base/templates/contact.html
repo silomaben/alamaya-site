@@ -63,26 +63,37 @@
                             </div>
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                                {{ form.name }}
+                                <!-- <input type="text" class="form-control" id="name" name="name" placeholder="Your Name"> -->
                                 <label for="name">Your Name</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                                {{ form.email }}
+                                <!-- <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"> -->
                                 <label for="email">Your Email</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                                {{ form.subject }}
+                                <!-- <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject"> -->
                                 <label for="subject">Subject</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px"></textarea>
+                                {{ form.message }}
+                                
+                                <!-- <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px"></textarea> -->
                                 <label for="message">Message</label>
+                                <br>
+
+                                {{ form.captcha}}
+                                {% for error in form.captcha.errors %}
+                                    <p>{{error}}</p>
+                                {% endfor %}
                             </div>
                         </div>
                         <div class="col-12">
@@ -91,6 +102,22 @@
                     </div>
                 </form>
             </div>
+            <!-- <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                <form id="contact" action="{% url 'contact-us' %}" method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <div class="col-12">
+                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                    </div>
+                </form>
+                {% if success_message %}
+                <div class="alert alert-success mt-3" role="alert">
+                    {{ success_message }}
+                </div>
+                {% endif %}
+            </div> -->
+            
+        
         </div>
     </div>
 </div>
