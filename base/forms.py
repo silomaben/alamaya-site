@@ -54,5 +54,5 @@ class BookingForm(forms.Form):
 
     # number_of_guests = forms.IntegerField(label='Number of Guests', min_value=0, max_value=14, initial=1, widget=forms.NumberInput(attrs={'class': 'form-control bg-transparent', 'style': 'color: white;'}))
     destination = forms.ChoiceField(label='Destination', choices=[('', 'Select a destination'), ('Maasai Mara', 'Maasai Mara'), ('Tsavo', 'Tsavo'), ('Olpejeta', 'Olpejeta'), ('Samburu', 'Samburu'), ('Amboseli', 'Amboseli'), ('Diani', 'Diani'), ('Lake Naivasha', 'Lake Naivasha'), ('Kakamega Forest', 'Kakamega Forest'), ('Nkare Ntare', 'Nkare Ntare'), ('Mt. Kenya', 'Mt. Kenya'), ('Chalbi Desert', 'Chalbi Desert')], widget=forms.Select(attrs={'class': 'form-select custom-select', 'style': 'color: white;'}))
-    special_request = forms.CharField(label='Special Request', widget=forms.Textarea(attrs={'class': 'form-control bg-transparent', 'style': 'color: white; height: 100px;'}))
+    special_request = forms.CharField(label='Special Request', required=False,widget=forms.Textarea(attrs={'class': 'form-control bg-transparent', 'style': 'color: white; height: 100px;'}))
     captcha = ReCaptchaField(widget=ReCaptchaV3)
