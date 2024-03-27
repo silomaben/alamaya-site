@@ -46,8 +46,8 @@ class BookingForm(forms.Form):
                         'placeholder': 'Date To:',
                         'data-target': '#dateTo',
                         'data-toggle': 'datetimepicker',
-                        'name': 'datetime',
-                        'id': 'datetime'
+                        'name': 'datetime1',
+                        'id': 'datetime1'
                     },format='%m/%d/%Y %I:%M %p'
                 )
             )
