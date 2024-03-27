@@ -18,7 +18,8 @@
         <div class="row gy-5 gx-4 justify-content-center">
             <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                        style="width: 100px; height: 100px;">
                         <i class="fa fa-globe fa-3x text-white"></i>
                     </div>
                     <h5 class="mt-4">Choose A Destination</h5>
@@ -29,7 +30,8 @@
             </div>
             <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                        style="width: 100px; height: 100px;">
                         <i class="fa fa-dollar-sign fa-3x text-white"></i>
                     </div>
                     <h5 class="mt-4">Book Trip</h5>
@@ -40,7 +42,8 @@
             </div>
             <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                    <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                    <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+                        style="width: 100px; height: 100px;">
                         <i class="fa fa-plane fa-3x text-white"></i>
                     </div>
                     <h5 class="mt-4">Enjoy your Vacay</h5>
@@ -63,8 +66,10 @@
                 <div class="col-md-6 text-white">
                     <h6 class="text-white text-uppercase">Booking</h6>
                     <h1 class="text-white mb-4">Online Booking</h1>
-                    <p class="mb-4">Immerse yourself in the magic of our safari experience as you witness captivating wildlife, breathtaking landscapes, and unforgettable moments in nature's embrace. </p>
-                    <p class="mb-4">From the graceful movements of elephants to the majestic presence of lions, every scene unfolds with awe-inspiring beauty, creating memories that will last a lifetime.</p>
+                    <p class="mb-4">Immerse yourself in the magic of our safari experience as you witness captivating
+                        wildlife, breathtaking landscapes, and unforgettable moments in nature's embrace. </p>
+                    <p class="mb-4">From the graceful movements of elephants to the majestic presence of lions, every
+                        scene unfolds with awe-inspiring beauty, creating memories that will last a lifetime.</p>
                     <!-- <a class="btn btn-outline-light py-3 px-5 mt-2" href="">Read More</a> -->
                 </div>
                 <div class="col-md-6">
@@ -72,51 +77,65 @@
                     <form id="booking" action="{% url 'booking' %}" method="post">
                         {% csrf_token %}
                         <div class="row g-3">
-                            <div class="booking_notif"  style="display: none; justify-content: center; color: red ;" >
-                            fill all fields
-                        </div>
+                            <div class="booking_notif" style="display: none; justify-content: center; color: red ;">
+                                fill all fields
+                            </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" style="color: white;" class="form-control bg-transparent" id="name" name="name" placeholder="Your Name">
+                                    {{ form.name }}
+                                    <!-- <input type="text" style="color: white;" class="form-control bg-transparent" id="name" name="name" placeholder="Your Name"> -->
                                     <label for="name">Your Name</label>
-                                    <p class="booking_notif" id="nameNotif"  style=" justify-content: center; color: red ;">
-                                        
+                                    <p class="booking_notif" id="nameNotif"
+                                        style=" justify-content: center; color: red ;">
+
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" style="color: white;" class="form-control bg-transparent" id="email" name="email" placeholder="Your Email">
+
+                                    {{ form.email }}
+                                    <!-- <input type="email" style="color: white;" class="form-control bg-transparent" id="email" name="email" placeholder="Your Email"> -->
                                     <label for="email">Your Email</label>
-                                    <p class="booking_notif" id="emailNotif"  style=" justify-content: center; color: red ;">
-                                        
+                                    <p class="booking_notif" id="emailNotif"
+                                        style=" justify-content: center; color: red ;">
+
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" style="color: white;" class="form-control bg-transparent" id="phoneno" name="phone_no" placeholder="Your Phone Number">
-                                    <label for="phoneno">Your Phone Number</label>
-                                    <p class="booking_notif" id="phoneNotif"  style=" justify-content: center; color: red ;">
-                                        
+                                    {{ form.phone_no }}
+                                    <!-- <input type="text" style="color: white;" class="form-control bg-transparent"
+                                        id="phoneno" name="phone_no" placeholder="Your Phone Number">
+                                    <label for="phoneno">Your Phone Number</label> -->
+                                    <p class="booking_notif" id="phoneNotif"
+                                        style=" justify-content: center; color: red ;">
+
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="number" style="color: white;" class="form-control bg-transparent" id="number-of-guests" name="number-of-guests" placeholder="Number of Guests" min="0" max="14" value="1">
+                                    {{ form.number_of_guests }}
+                                    <!-- <input type="number" style="color: white;" class="form-control bg-transparent"
+                                        id="number-of-guests" name="number-of-guests" placeholder="Number of Guests"
+                                        min="0" max="14" value="1"> -->
                                     <label for="number-of-guests">Number of Guests</label>
-                                    <p class="booking_notif" id="guestNoNotif"  style=" justify-content: center; color: red ;">
-                                        
+                                    <p class="booking_notif" id="guestNoNotif"
+                                        style=" justify-content: center; color: red ;">
+
                                     </p>
                                 </div>
                             </div>
-                            
+
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <select class="form-select custom-select" id="select1" name="destination" onchange="updateSelectColor(this)">
+                                    {{ form.destination }}
+                                    <!-- <select class="form-select custom-select" id="select1" name="destination"
+                                        onchange="updateSelectColor(this)">
                                         {% if destination %}
-                                            <option value="{{ destination }}">{{ destination }}</option>
+                                        <option value="{{ destination }}">{{ destination }}</option>
                                         {% endif %}
                                         <option value="">Select a destination</option>
                                         <option value="1">Maasai Mara</option>
@@ -130,45 +149,77 @@
                                         <option value="9">Nkare Ntare</option>
                                         <option value="10">Mt. Kenya</option>
                                         <option value="11">Chalbi Desert</option>
-                                    </select>
+                                    </select> -->
                                     <label for="select1">Destination</label>
-                                    <p class="booking_notif" id="destinationNotif"  style=" justify-content: center; color: red ;">
-                                        
+                                    <p class="booking_notif" id="destinationNotif"
+                                        style=" justify-content: center; color: red ;">
+
                                     </p>
                                 </div>
                             </div>
-                            
+
                             <div class="col-md-6">
                                 <div class="form-floating date" id="dateFrom" data-target-input="nearest">
-                                    <input type="text" style="color: white;" class="form-control bg-transparent datetimepicker-input" id="datetime" name="datetime" placeholder="Date From:" data-target="#dateFrom" data-toggle="datetimepicker" />
+                                    {{ form.datetime_from }}
+                                    <!-- <input type="text" style="color: white;"
+                                        class="form-control bg-transparent datetimepicker-input" id="datetime"
+                                        name="datetime" placeholder="Date From:" data-target="#dateFrom"
+                                        data-toggle="datetimepicker" /> -->
                                     <label for="datetime">Date From:</label>
-                                    <p class="booking_notif" id="dateFromNotif"  style=" justify-content: center; color: red ;">
-                                        
+                                    <p class="booking_notif" id="dateFromNotif"
+                                        style=" justify-content: center; color: red ;">
+
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating date" id="dateTo" data-target-input="nearest">
-                                    <input type="text" style="color: white;" class="form-control bg-transparent datetimepicker-input" id="datetime1" name="datetime1" placeholder="Date To:" data-target="#dateTo" data-toggle="datetimepicker" />
+                                    {{ form.datetime_to }}
+                                    <!-- <input type="text" style="color: white;"
+                                        class="form-control bg-transparent datetimepicker-input" id="datetime1"
+                                        name="datetime1" placeholder="Date To:" data-target="#dateTo"
+                                        data-toggle="datetimepicker" /> -->
                                     <label for="datetime1">Date To:</label>
-                                    <p class="booking_notif" id="dateToNotif"  style=" justify-content: center; color: red ;">
-                                        
+                                    <p class="booking_notif" id="dateToNotif"
+                                        style=" justify-content: center; color: red ;">
+
                                     </p>
                                 </div>
                             </div>
-                            
+
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea style="color: white;" class="form-control bg-transparent" placeholder="Special Request" id="message" name="message" style="height: 100px"></textarea>
+                                    {{ form.special_request }}
+                                    <!-- <textarea style="color: white;" class="form-control bg-transparent"
+                                        placeholder="Special Request" id="message" name="message"
+                                        style="height: 100px"></textarea> -->
                                     <label for="message">Special Request</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-outline-light w-100 py-3" id="form-submit" type="submit">Book Now</button>
+                                <div class="form-floating">
+                                {{ form.captcha}}
+                                {% for error in form.captcha.errors %}
+                                    <p>{{error}}</p>
+                                {% endfor %}
+
+                                {% if form.errors %}
+                                <ul>
+                                    {% for field, errors in form.errors.items %}
+                                        <li>{{ field }}: {{ errors }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                                
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-outline-light w-100 py-3" id="form-submit" type="submit">Book
+                                    Now</button>
                             </div>
                         </div>
                     </form>
-                    
+
                 </div>
             </div>
         </div>

@@ -8,6 +8,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+
+
     
         <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZ4Y5EE6YP"></script>
@@ -411,7 +413,8 @@
             // console.log(bookingNotif);
 
     
-            contactForm.addEventListener('submit', function (event) {
+            contactForm.addEventListener('click', function (event) {
+                
                 let valid = true;
     
                 if (nameField.value.trim() === '') {

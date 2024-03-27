@@ -3,7 +3,7 @@ from .models import Video,Gallery,Destination
 from django.views.generic import ListView,DetailView
 from .models import Post
 
-from .forms import ContactForm
+from .forms import ContactForm,BookingForm
 from django.conf import settings
 
 
@@ -50,57 +50,97 @@ def package_5(request):
 
 
 def booking(request):
-        destination = request.GET.get('destination', '')
 
         
+        destination = request.GET.get('destination', '')
         
+
 
         if request.method == "POST":
-                name = request.POST['name']
-                email = request.POST['email']
-                phone_no = request.POST['phone_no']
-                no_of_guests = request.POST['number-of-guests']
-                destination = request.POST.get('destination', '')
-                datefrom = request.POST['datetime']
-                dateto = request.POST['datetime1']
-                message = request.POST['message']
+
+                print("post detected")
+
+                # Inspect raw form data before cleaning
+                print("Raw form data:", request.POST)
 
 
-                #send email
-                subject = "Booking request from " + name
-                email_body = f"Name: {name}\nEmail: {email}\nPhone No: {phone_no}\nDestination:{destination} \nNumber of Guests: {no_of_guests}\nFrom : {datefrom} to {dateto}\n\nSpecial Request:\n{message}"
-                send_mail(
-                subject,
-                email_body,
-                EMAIL_HOST_USER,
-                ["ignit3graphics@gmail.com","adrielngugim@gmail.com"]
+                form = BookingForm(request.POST)
 
-                # ,"adrielngugi@gmail.com"
-                
-                )
-                # ["smichire@gmail.com","sifaspecialneedsnetwork@gmail.com"]
-                message = f"Thank you for choosing Alamaya Adventures Limited! We have received your booking.\n\nOur team is processing it and will respond soon.\n\nThank you for your patience, and we look forward to connecting with you shortly.\n\nBest regards,\nSamuel Ngugi\nAlamaya Adventures Limited"
-
-                send_mail(
-                "Processing Booking",
-                message,
-                EMAIL_HOST_USER,
-                [email]
-                )
-                context = {
-                'destination': destination,
-                'name':name
-                }
-                
                 
 
-                return render(request, 'booking.html',context )
+                if form.is_valid():
+                        print("Form data:", form.cleaned_data)
+
+                        print("form is valid")
+
+                        name = form.cleaned_data['name']
+                        email = form.cleaned_data['email']
+                        phone_no = form.cleaned_data['phone_no']
+                        no_of_guests = form.cleaned_data['number_of_guests']
+                        destination = form.cleaned_data['destination']
+                        datefrom = form.cleaned_data['datetime_from']
+                        dateto = form.cleaned_data['datetime_to']
+                        message = form.cleaned_data['special_request']
+
+
+                        #send email
+                        subject = "Booking request from " + name
+                        email_body = f"Name: {name}\nEmail: {email}\nPhone No: {phone_no}\nDestination:{destination} \nNumber of Guests: {no_of_guests}\nFrom : {datefrom} to {dateto}\n\nSpecial Request:\n{message}"
+                        send_mail(
+                        subject,
+                        email_body,
+                        EMAIL_HOST_USER,
+                        ["ignit3graphics@gmail.com"]
+
+                        # ,"adrielngugi@gmail.com"
+                        
+                        )
+                        # ["smichire@gmail.com","sifaspecialneedsnetwork@gmail.com"]
+                        message = f"Thank you for choosing Alamaya Adventures Limited! We have received your booking.\n\nOur team is processing it and will respond soon.\n\nThank you for your patience, and we look forward to connecting with you shortly.\n\nBest regards,\nSamuel Ngugi\nAlamaya Adventures Limited"
+
+                        send_mail(
+                        "Processing Booking",
+                        message,
+                        EMAIL_HOST_USER,
+                        [email]
+                        )
+
+                        form = BookingForm()
+
+                        context = {
+                        'destination': destination,
+                        'name':name,
+                        'form': form
+                        }
+                        
+                        
+
+                        return render(request, 'booking.html',context )
+                else:
+                        print(form.errors)
+
+                        print('form seems invalid')
+                        context = {
+                        'destination': destination,
+                        'form': form
+                        }
+                        
+                        
+
+                        return render(request, 'booking.html',context )
+
         else:
-                context = {
-                'destination': destination
-                }
-                
-                return render(request, 'booking.html', context)
+
+                form = BookingForm()
+
+        print(form.errors)
+
+        context = {
+        'destination': destination,
+        'form': form
+        }
+        
+        return render(request, 'booking.html', context)
                 
         
        
@@ -114,6 +154,8 @@ def contact(request):
 
                 form = ContactForm(request.POST)
 
+                print("Raw form data:", request.POST)
+
                 if form.is_valid():
                         name = form.cleaned_data['name']
                         email = form.cleaned_data['email']
@@ -126,18 +168,20 @@ def contact(request):
                         
                         subject = "New message from " + name
                         email_body = f"Name: {name}\nEmail: {email}\nSubject: {subject}\n\nMessage:\n{message}"
-                        send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+                        send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com"])
                         
                         message2 = f"Thank you for reaching out to Alamaya Adventures Limited! We have received your message and appreciate your inquiry.\n\nOur team is reviewing it and will respond soon.\n\nThank you for your patience, and we look forward to connecting with you shortly.\n\nBest regards,\nSamuel Ngugi\nAlamaya Adventures Limited"
 
                         send_mail("Thank you for contacting us!", message2, EMAIL_HOST_USER, [email])
 
                         form = ContactForm()
-                        
+
                         return render(request, 'contact.html', {'form': form, 'success_message': 'Your message has been sent!','site_key':settings.RECAPTCHA_PUBLIC_KEY})
                 
         else:    
                 form = ContactForm()
+
+        print(form.errors)        
 
         return render(request, 'contact.html', {'form': form})
 
