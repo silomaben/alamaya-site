@@ -90,7 +90,7 @@ def booking(request):
                         subject,
                         email_body,
                         EMAIL_HOST_USER,
-                        ["ignit3graphics@gmail.com"]
+                        ["ignit3graphics@gmail.com","adrielngugim@gmail.com"]
 
                         # ,"adrielngugi@gmail.com"
                         
