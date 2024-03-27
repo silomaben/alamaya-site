@@ -90,7 +90,7 @@ def booking(request):
                         subject,
                         email_body,
                         EMAIL_HOST_USER,
-                        ["ignit3graphics@gmail.com","adrielngugim@gmail.com"]
+                        ["ignit3graphics@gmail.com"]
 
                         # ,"adrielngugi@gmail.com"
                         
@@ -167,7 +167,7 @@ def contact(request):
                         
                         subject = "New message from " + name
                         email_body = f"Name: {name}\nEmail: {email}\nSubject: {subject}\n\nMessage:\n{message}"
-                        send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com","adrielngugim@gmail.com"])
+                        send_mail(subject, email_body, EMAIL_HOST_USER, ["ignit3graphics@gmail.com"])
                         
                         message2 = f"Thank you for reaching out to Alamaya Adventures Limited! We have received your message and appreciate your inquiry.\n\nOur team is reviewing it and will respond soon.\n\nThank you for your patience, and we look forward to connecting with you shortly.\n\nBest regards,\nSamuel Ngugi\nAlamaya Adventures Limited"
 
