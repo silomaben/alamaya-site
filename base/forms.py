@@ -44,7 +44,7 @@ class BookingForm(forms.Form):
                         'class': 'form-control bg-transparent datetimepicker-input',
                         'style': 'color: white;',
                         'placeholder': 'Date To:',
-                        'data-target': '#dateto',
+                        'data-target': '#dateTo',
                         'data-toggle': 'datetimepicker',
                         'name': 'datetime',
                         'id': 'datetime'
