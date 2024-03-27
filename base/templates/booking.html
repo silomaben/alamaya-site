@@ -200,16 +200,8 @@
                                 <div class="form-floating">
                                 {{ form.captcha}}
                                 {% for error in form.captcha.errors %}
-                                    <p>{{error}}</p>
+                                    <p style=" justify-content: center; color: red ;">{{error}}</p>
                                 {% endfor %}
-
-                                {% if form.errors %}
-                                <ul>
-                                    {% for field, errors in form.errors.items %}
-                                        <li>{{ field }}: {{ errors }}</li>
-                                    {% endfor %}
-                                </ul>
-                                {% endif %}
                                 
                                 </div>
                             </div>
